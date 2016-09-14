@@ -41,6 +41,9 @@ public class StringCalculator {
 		for (int i = 0; i < strings.length; i++) {
 			try {
 				int converted = Integer.parseInt(strings[i]);
+				
+				if (converted < 0)
+					throw new StringCalculatorException();
 			} catch (NumberFormatException nfe) {
 				throw new StringCalculatorException();
 			}
