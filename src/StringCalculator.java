@@ -14,4 +14,6 @@ public class StringCalculator {
 		
 		return value;
 	}
+	
+	
 }
