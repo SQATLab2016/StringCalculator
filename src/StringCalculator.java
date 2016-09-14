@@ -4,6 +4,7 @@ public class StringCalculator {
 		if (numbersStr == null || numbersStr.length() == 0)
 			return 0;
 		
+		String[] splitNumbers = numbersStr.split(",");
 		int value = Integer.valueOf(numbersStr);
 		
 		// Returns the sum of the numbers given in numbersStr
