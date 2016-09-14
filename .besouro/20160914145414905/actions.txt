@@ -20,3 +20,4 @@ EditAction 1473854292750 StringCalculatorTest.java 580 3 9 3
 UnitTestCaseAction 1473854295321 StringCalculatorTest.java OK
 UnitTestSessionAction 1473854295322 StringCalculatorTest.java OK
 EditAction 1473854322805 StringCalculator.java 355 1 4 0
+EditAction 1473854472713 StringCalculator.java 421 1 5 0
