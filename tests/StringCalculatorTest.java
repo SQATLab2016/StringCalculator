@@ -8,6 +8,7 @@ public class StringCalculatorTest {
 	public void test_nullString() {
 		StringCalculator calc = new StringCalculator();
 		int result = calc.add(null);
+		assertEquals(0, result);
 	}
 
 	@Test

@@ -7,3 +7,4 @@ RefactoringAction 1473854112260 StringCalculatorTest.java RENAME test_nullString
 EditAction 1473854112444 StringCalculatorTest.java 264 2 2 0
 EditAction 1473854127745 StringCalculatorTest.java 287 2 2 0
 EditAction 1473854146291 StringCalculatorTest.java 315 2 3 0
+EditAction 1473854165055 StringCalculatorTest.java 343 2 4 1
