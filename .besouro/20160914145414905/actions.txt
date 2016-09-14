@@ -182,3 +182,8 @@ UnitTestCaseAction 1473856344765 StringCalculatorTest.java OK
 UnitTestSessionAction 1473856344765 StringCalculatorTest.java OK
 RefactoringAction 1473856377403 StringCalculatorTest.java ADD void test_RandomCharacters() METHOD
 EditAction 1473856431886 StringCalculatorTest.java 2350 13 36 12
+CompilationAction 1473856432124 StringCalculatorTest.java
+CompilationAction 1473856435887 StringCalculatorTest.java
+UnitTestCaseAction 1473856437891 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856437892 StringCalculatorTest.java OK
+EditAction 1473856568188 StringCalculator.java 1506 3 12 0

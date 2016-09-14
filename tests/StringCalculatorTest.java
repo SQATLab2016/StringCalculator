@@ -91,7 +91,7 @@ public class StringCalculatorTest {
 	@Test
 	public void test_RandomCharacters() {
 		StringCalculator calc = new StringCalculator();
-		int result = calc.add("4,=3,2?)";
+		int result = calc.add("4,=3,2?");
 		assertEquals(-1, result);
 	}
 }
