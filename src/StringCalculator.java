@@ -20,6 +20,7 @@ public class StringCalculator {
 		
 		while (prevIndex != -1) {
 			prevIndex = str.indexOf("\n", prevIndex);
+			
 		}
 	}
 }
