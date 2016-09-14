@@ -22,9 +22,10 @@ public class StringCalculator {
 		if (m.find()) {
 			throw new StringCalculatorException();
 		}
+		
 		// Returns the sum of an unknown amount of numbers,
 		// separated by commas or newlines
-		else if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
+		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
 			String numbers[] = numbersStr.split(",+|\\n+");
 			
 			int sum = 0;
@@ -35,6 +36,7 @@ public class StringCalculator {
 			return sum;
 		}
 		
+		// The string contains illegal characters
 		throw new StringCalculatorException();
 	}
 }
