@@ -22,3 +22,4 @@ UnitTestSessionAction 1473854295322 StringCalculatorTest.java OK
 EditAction 1473854322805 StringCalculator.java 355 1 4 0
 EditAction 1473854472713 StringCalculator.java 421 1 5 0
 EditAction 1473854475978 StringCalculator.java 334 1 5 0
+EditAction 1473854499067 StringCalculator.java 404 1 0 0
