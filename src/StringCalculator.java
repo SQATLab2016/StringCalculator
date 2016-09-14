@@ -28,10 +28,7 @@ public class StringCalculator {
 			if (prevIndex == -1)
 				break;
 			
-			if (prevIndex != -1 && prevIndex < str.length() - 1)
-				prevIndex++;
-			
-			if (str.charAt(prevIndex) == ',')
+			if (prevIndex < str.length() - 1 && str.charAt(prevIndex + 1) == ',')
 				throw new StringCalculatorException();
 		}
 		
