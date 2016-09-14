@@ -3,7 +3,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class StringCalculatorTest {
-
 	@Test
 	public void testStringCalculator_EmptyString() throws StringCalculatorException {
 		// Arrange
