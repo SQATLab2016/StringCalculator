@@ -76,4 +76,16 @@ public class StringCalculatorTest {
 		assertEquals("Many numbers (7, 7, 16)", 30, sum);
 	}
 
+	@Test
+	public void testStringCalculator_ManyNumbers_2() {
+		// Arrange
+		String numbers = "1,2,3,4,5,6,7,8,9,100";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("Many numbers (1...9, 100)", 145, sum);
+	}
+
 }
