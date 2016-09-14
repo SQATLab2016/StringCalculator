@@ -1,0 +1,190 @@
+FileOpenedAction 1473854055050 StringCalculator.java 180 1 1 0
+EditAction 1473854096389 StringCalculator.java 253 1 2 0
+RefactoringAction 1473854102205 StringCalculatorTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1473854106236 StringCalculatorTest.java RENAME test_()=>void test_nullString() METHOD
+RefactoringAction 1473854110250 StringCalculatorTest.java ADD void test_nullString()/2 METHOD
+RefactoringAction 1473854112260 StringCalculatorTest.java RENAME test_nullString()/2=>void test_eString() METHOD
+EditAction 1473854112444 StringCalculatorTest.java 264 2 2 0
+EditAction 1473854127745 StringCalculatorTest.java 287 2 2 0
+EditAction 1473854146291 StringCalculatorTest.java 315 2 3 0
+EditAction 1473854165055 StringCalculatorTest.java 343 2 4 1
+EditAction 1473854171200 StringCalculatorTest.java 420 2 6 2
+UnitTestCaseAction 1473854184555 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854184557 StringCalculatorTest.java OK
+EditAction 1473854259183 StringCalculator.java 300 1 3 0
+CompilationAction 1473854259389 StringCalculator.java
+CompilationAction 1473854265712 StringCalculator.java
+RefactoringAction 1473854276604 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473854282620 StringCalculatorTest.java RENAME test_=>void test_OneNumber() METHOD
+EditAction 1473854292750 StringCalculatorTest.java 580 3 9 3
+UnitTestCaseAction 1473854295321 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854295322 StringCalculatorTest.java OK
+EditAction 1473854322805 StringCalculator.java 355 1 4 0
+EditAction 1473854472713 StringCalculator.java 421 1 5 0
+EditAction 1473854475978 StringCalculator.java 334 1 5 0
+EditAction 1473854499067 StringCalculator.java 404 1 0 0
+CompilationAction 1473854499314 StringCalculator.java
+CompilationAction 1473854509897 StringCalculator.java
+CompilationAction 1473854509918 StringCalculator.java
+CompilationAction 1473854516000 StringCalculator.java
+EditAction 1473854534447 StringCalculator.java 342 1 5 0
+RefactoringAction 1473854550429 StringCalculatorTest.java ADD void test_twoNumbers() METHOD
+EditAction 1473854557140 StringCalculatorTest.java 741 4 12 4
+UnitTestCaseAction 1473854559192 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854559194 StringCalculatorTest.java OK
+RefactoringAction 1473854566975 StringCalculatorTest.java ADD void test_twoNumbers()/2 METHOD
+RefactoringAction 1473854568985 StringCalculatorTest.java RENAME test_twoNumbers()/2=>void test_twoNumbersW() METHOD
+EditAction 1473854570619 StringCalculatorTest.java 916 5 15 5
+EditAction 1473854572915 StringCalculatorTest.java 918 5 15 5
+EditAction 1473854576785 StringCalculatorTest.java 920 5 15 5
+UnitTestCaseAction 1473854579287 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473854579288 StringCalculatorTest.java FAIL
+EditAction 1473854588232 StringCalculator.java 349 1 5 0
+UnitTestCaseAction 1473854591806 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854591807 StringCalculatorTest.java OK
+RefactoringAction 1473854724531 StringCalculator.java ADD String replace FIELD
+RefactoringAction 1473854726042 StringCalculator.java REMOVE replace FIELD
+RefactoringAction 1473854733557 StringCalculator.java ADD String replaceNewLinesWithCommas() METHOD
+RefactoringAction 1473854738069 StringCalculator.java RENAME replaceNewLinesWithCommas()=>String replaceNewLinesWithCommas(String) METHOD
+RefactoringAction 1473854740079 StringCalculator.java REMOVE replaceNewLinesWithCommas(String) METHOD
+EditAction 1473854761146 StringCalculator.java 403 1 6 0
+RefactoringAction 1473854768748 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473854772766 StringCalculatorTest.java RENAME test_=>void test_twoNumbersWith FIELD
+RefactoringAction 1473854775278 StringCalculatorTest.java RENAME test_twoNumbersWith=>void test_twoNumbersWithNewLines() METHOD
+EditAction 1473854787533 StringCalculatorTest.java 1094 6 18 6
+RefactoringAction 1473854792862 StringCalculatorTest.java RENAME test_twoNumbersWithNewLines()=>void test_twoNumbersWithNewLines_Correct() METHOD
+RefactoringAction 1473854795874 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Correct()/2 METHOD
+RefactoringAction 1473854799389 StringCalculatorTest.java RENAME test_twoNumbersWithNewLines_Correct()/2=>void test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473854809689 StringCalculatorTest.java 1287 7 21 7
+RefactoringAction 1473854824460 StringCalculatorTest.java RENAME test_=>void test_threeNumbers() METHOD
+EditAction 1473854843841 StringCalculatorTest.java 1085 6 18 6
+UnitTestCaseAction 1473854851729 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854851730 StringCalculatorTest.java OK
+RefactoringAction 1473854857026 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Correct() METHOD
+RefactoringAction 1473854857027 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Incorrect() METHOD
+RefactoringAction 1473854861539 StringCalculatorTest.java ADD void test_threeNumbersWithNewLines_Correct() METHOD
+RefactoringAction 1473854861541 StringCalculatorTest.java ADD void test_threeNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473854865697 StringCalculatorTest.java 1458 8 24 8
+RefactoringAction 1473854872582 StringCalculatorTest.java RENAME test_threeNumbersWithNewLines_Incorrect()=>void test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473854878492 StringCalculatorTest.java 1455 8 24 8
+EditAction 1473854948276 StringCalculator.java 409 1 6 0
+RefactoringAction 1473854956688 StringCalculatorTest.java REMOVE test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473854958058 StringCalculatorTest.java 1271 7 21 7
+UnitTestCaseAction 1473854960166 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854960167 StringCalculatorTest.java OK
+RefactoringAction 1473854982915 StringCalculator.java ADD String reformatNewLines FIELD
+RefactoringAction 1473854985924 StringCalculator.java RENAME reformatNewLines=>String reformatNewLines() METHOD
+RefactoringAction 1473854988934 StringCalculator.java RENAME reformatNewLines()=>String reformatNewLines(String) METHOD
+EditAction 1473854994174 StringCalculator.java 495 2 6 0
+CompilationAction 1473854994328 StringCalculator.java
+EditAction 1473855102838 StringCalculator.java 549 2 6 0
+CompilationAction 1473855103067 StringCalculator.java
+CompilationAction 1473855127557 StringCalculator.java
+CompilationAction 1473855127742 StringCalculator.java
+EditAction 1473855129293 StringCalculator.java 597 2 8 0
+CompilationAction 1473855129523 StringCalculator.java
+EditAction 1473855142111 StringCalculator.java 602 2 8 0
+CompilationAction 1473855142334 StringCalculator.java
+EditAction 1473855156667 StringCalculator.java 643 2 9 0
+EditAction 1473855190984 StringCalculator.java 718 2 9 0
+CompilationAction 1473855191216 StringCalculator.java
+CompilationAction 1473855194369 StringCalculator.java
+EditAction 1473855197047 StringCalculator.java 729 2 9 0
+CompilationAction 1473855217074 StringCalculator.java
+CompilationAction 1473855217074 StringCalculator.java
+CompilationAction 1473855217075 StringCalculator.java
+CompilationAction 1473855217630 StringCalculator.java
+CompilationAction 1473855217631 StringCalculator.java
+CompilationAction 1473855218144 StringCalculator.java
+CompilationAction 1473855231266 StringCalculator.java
+CompilationAction 1473855231436 StringCalculatorTest.java
+EditAction 1473855237937 StringCalculator.java 725 2 9 0
+CompilationAction 1473855238157 StringCalculator.java
+CompilationAction 1473855268339 StringCalculator.java
+EditAction 1473855277486 StringCalculator.java 800 2 9 0
+RefactoringAction 1473855306585 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473855316773 StringCalculatorTest.java 1457 8 24 8
+EditAction 1473855351140 StringCalculator.java 800 2 9 0
+EditAction 1473855363195 StringCalculator.java 800 2 9 0
+CompilationAction 1473855363373 StringCalculator.java
+EditAction 1473855367944 StringCalculator.java 800 2 9 0
+EditAction 1473855445203 StringCalculator.java 805 2 9 0
+CompilationAction 1473855445455 StringCalculator.java
+CompilationAction 1473855450357 StringCalculator.java
+EditAction 1473855463676 StringCalculator.java 836 2 9 0
+EditAction 1473855464245 StringCalculator.java 835 2 9 0
+EditAction 1473855479929 StringCalculator.java 800 2 9 0
+EditAction 1473855483055 StringCalculator.java 800 2 9 0
+EditAction 1473855525702 StringCalculator.java 800 2 9 0
+EditAction 1473855541131 StringCalculator.java 844 2 9 0
+UnitTestCaseAction 1473855560548 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473855560549 StringCalculatorTest.java FAIL
+EditAction 1473855617089 StringCalculator.java 796 2 9 0
+EditAction 1473855641499 StringCalculator.java 872 2 9 0
+EditAction 1473855645978 StringCalculator.java 876 2 9 0
+UnitTestCaseAction 1473855659816 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473855659817 StringCalculatorTest.java FAIL
+EditAction 1473855688336 StringCalculator.java 918 2 9 0
+EditAction 1473855704326 StringCalculator.java 874 2 9 0
+EditAction 1473855737111 StringCalculator.java 896 2 9 0
+UnitTestCaseAction 1473855757212 StringCalculatorTest.java OK
+UnitTestSessionAction 1473855757213 StringCalculatorTest.java OK
+RefactoringAction 1473855780098 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473855786114 StringCalculatorTest.java RENAME test_=>void test_SevenNumbersWithNewLines FIELD
+RefactoringAction 1473855805135 StringCalculatorTest.java RENAME test_SevenNumbersWithNewLines=>void test_SevenNumbersWithNewLines() METHOD
+EditAction 1473855823191 StringCalculatorTest.java 1645 9 27 9
+UnitTestCaseAction 1473855825251 StringCalculatorTest.java OK
+UnitTestSessionAction 1473855825252 StringCalculatorTest.java OK
+RefactoringAction 1473855836315 StringCalculator.java ADD void tes FIELD
+RefactoringAction 1473855854335 StringCalculator.java RENAME tes=>void test FIELD
+RefactoringAction 1473855859347 StringCalculator.java RENAME test=>void testOnly FIELD
+RefactoringAction 1473855860862 StringCalculator.java REMOVE testOnly FIELD
+RefactoringAction 1473855866873 StringCalculator.java ADD void ensureOnly FIELD
+RefactoringAction 1473855870887 StringCalculator.java RENAME ensureOnly=>void ensureOnlyNumbers(String) METHOD
+EditAction 1473855877123 StringCalculator.java 987 3 9 0
+CompilationAction 1473855890460 StringCalculator.java
+RefactoringAction 1473855894975 StringCalculator.java RENAME checValidity(String)=>void checkValidity(String) METHOD
+RefactoringAction 1473855899490 StringCalculator.java RENAME checkValidity(String)=>void checkValidity(String METHOD
+CompilationAction 1473855903663 StringCalculator.java
+EditAction 1473855919493 StringCalculator.java 1041 3 10 0
+EditAction 1473855950602 StringCalculator.java 1102 3 9 0
+CompilationAction 1473855950837 StringCalculator.java
+CompilationAction 1473855996660 StringCalculator.java
+CompilationAction 1473855996831 StringCalculator.java
+EditAction 1473856021705 StringCalculator.java 1189 3 10 0
+EditAction 1473856038693 StringCalculator.java 1264 3 10 0
+CompilationAction 1473856055862 StringCalculator.java
+CompilationAction 1473856077502 StringCalculator.java
+RefactoringAction 1473856084463 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473856093977 StringCalculatorTest.java RENAME test_=>void test_S FIELD
+RefactoringAction 1473856094986 StringCalculatorTest.java RENAME test_S=>void test_ FIELD
+RefactoringAction 1473856111052 StringCalculatorTest.java RENAME test_=>void test_NumbersAndLetters() METHOD
+EditAction 1473856121789 StringCalculatorTest.java 1819 10 30 10
+RefactoringAction 1473856128631 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473856139147 StringCalculatorTest.java RENAME test_=>void test_Negative FIELD
+RefactoringAction 1473856154666 StringCalculatorTest.java RENAME test_Negative=>void test_NegativeNumbers() METHOD
+EditAction 1473856166981 StringCalculatorTest.java 1990 11 33 11
+UnitTestCaseAction 1473856169079 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473856169088 StringCalculatorTest.java FAIL
+EditAction 1473856205257 StringCalculator.java 1463 3 12 0
+UnitTestCaseAction 1473856208748 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856208749 StringCalculatorTest.java OK
+RefactoringAction 1473856288299 StringCalculatorTest.java RENAME test_twoNumbersWithNewLines_Incorrect()=>void test_twoNumbersWithNewLines_Incorrect1() METHOD
+RefactoringAction 1473856291311 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Incorrect1()/2 METHOD
+RefactoringAction 1473856292821 StringCalculatorTest.java RENAME test_twoNumbersWithNewLines_Incorrect1()/2=>void test_twoNumbersWithNewLines_Incorrect2() METHOD
+EditAction 1473856295084 StringCalculatorTest.java 2178 12 36 12
+UnitTestCaseAction 1473856296715 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856296717 StringCalculatorTest.java OK
+EditAction 1473856333192 StringCalculator.java 1505 3 9 0
+CompilationAction 1473856333317 StringCalculator.java
+CompilationAction 1473856342942 StringCalculator.java
+UnitTestCaseAction 1473856344765 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856344765 StringCalculatorTest.java OK
+RefactoringAction 1473856377403 StringCalculatorTest.java ADD void test_RandomCharacters() METHOD
+EditAction 1473856431886 StringCalculatorTest.java 2350 13 36 12
+CompilationAction 1473856432124 StringCalculatorTest.java
+CompilationAction 1473856435887 StringCalculatorTest.java
+UnitTestCaseAction 1473856437891 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856437892 StringCalculatorTest.java OK
+EditAction 1473856568188 StringCalculator.java 1506 3 12 0
+FileOpenedAction 1473856656930 SudokuVerifier.java 1942 1 14 0
