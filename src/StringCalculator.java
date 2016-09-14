@@ -17,14 +17,17 @@ public class StringCalculator {
 		// Returns the sum of an unknown amount of numbers,
 		// separated by commas or newlines
 		if (numbersStr.matches(",\\n|\\n,")) {
+			return 100;
 			throw new StringCalculatorException();
 		}
 		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
 			String numbers[] = numbersStr.split(",+|\\n+");
+			
 			int sum = 0;
 			for (String number : numbers) {
 				sum += Integer.parseInt(number);
 			}
+			
 			return sum;
 		}
 		
