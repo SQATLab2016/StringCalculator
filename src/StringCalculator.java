@@ -16,6 +16,8 @@ public class StringCalculator {
 	}
 	
 	private String reformatNewLines(String str) throws StringCalculatorException {
+		int prevIndex = 0;
 		
+		str.indexOf("\n", prevIndex)
 	}
 }

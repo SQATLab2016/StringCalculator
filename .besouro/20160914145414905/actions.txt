@@ -76,3 +76,5 @@ RefactoringAction 1473854982915 StringCalculator.java ADD String reformatNewLine
 RefactoringAction 1473854985924 StringCalculator.java RENAME reformatNewLines=>String reformatNewLines() METHOD
 RefactoringAction 1473854988934 StringCalculator.java RENAME reformatNewLines()=>String reformatNewLines(String) METHOD
 EditAction 1473854994174 StringCalculator.java 495 2 6 0
+CompilationAction 1473854994328 StringCalculator.java
+EditAction 1473855102838 StringCalculator.java 549 2 6 0
