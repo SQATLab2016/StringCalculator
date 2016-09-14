@@ -12,7 +12,7 @@ public class StringCalculator {
 		}
 		
 		// Returns the same number when given only one number
-		if (numbersStr.matches("^\\d+$")) {
+		if (numbersStr.matches("\\d")) {
 			return Integer.parseInt(numbersStr);
 		}
 		

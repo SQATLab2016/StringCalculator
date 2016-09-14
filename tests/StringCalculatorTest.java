@@ -141,6 +141,51 @@ public class StringCalculatorTest {
 		String numbers = "1\n,2";
 		
 		// Act, should raise an exception
-		int sum = StringCalculator.add(numbers);
+		StringCalculator.add(numbers);
+	}
+
+	@Test (expected = StringCalculatorException.class)
+	public void testStringCalculator_CommaAndNewlineNextToEachOther() throws StringCalculatorException {
+		// Arrange
+		String numbers = "3,\n4";
+		
+		// Act, should raise an exception
+		StringCalculator.add(numbers);
+	}
+
+	@Test (expected = StringCalculatorException.class)
+	public void testStringCalculator_OneNegativeNumber() throws StringCalculatorException {
+		// Arrange
+		String numbers = "-100";
+		
+		// Act, should raise an exception
+		StringCalculator.add(numbers);
+	}
+
+	@Test (expected = StringCalculatorException.class)
+	public void testStringCalculator_WithNegativeNumber() throws StringCalculatorException {
+		// Arrange
+		String numbers = "4,-5";
+		
+		// Act, should raise an exception
+		StringCalculator.add(numbers);
+	}
+
+	@Test (expected = StringCalculatorException.class)
+	public void testStringCalculator_IllegalCharacters() throws StringCalculatorException {
+		// Arrange
+		String numbers = "1,3.6";
+		
+		// Act, should raise an exception
+		StringCalculator.add(numbers);
+	}
+
+	@Test (expected = StringCalculatorException.class)
+	public void testStringCalculator_IllegalCharacters_2() throws StringCalculatorException {
+		// Arrange
+		String numbers = "1,3,6,5e2";
+		
+		// Act, should raise an exception
+		StringCalculator.add(numbers);
 	}
 }
