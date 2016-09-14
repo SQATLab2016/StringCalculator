@@ -91,3 +91,10 @@ UnitTestSessionAction 1473858051066 StringCalculatorTest.java OK
 RefactoringAction 1473858059802 StringCalculatorTest.java ADD void testStringCalculator_ManyNumbers_NewlineAndComma()/2 METHOD
 RefactoringAction 1473858064966 StringCalculatorTest.java RENAME testStringCalculator_ManyNumbers_NewlineAndComma()/2=>void testStringCalculator_ManyNumbers_NewlinesOnly() METHOD
 EditAction 1473858101049 StringCalculatorTest.java 3169 11 33 11
+UnitTestCaseAction 1473858104219 StringCalculatorTest.java OK
+UnitTestSessionAction 1473858104219 StringCalculatorTest.java OK
+RefactoringAction 1473858111816 StringCalculatorTest.java ADD void testStringCalculator_ManyNumbers_NewlinesOnly()/2 METHOD
+RefactoringAction 1473858115950 StringCalculatorTest.java RENAME testStringCalculator_ManyNumbers_NewlinesOnly()/2=>void testStringCalculator_NewlinesOnly() METHOD
+RefactoringAction 1473858119553 StringCalculatorTest.java RENAME testStringCalculator_NewlinesOnly()=>void testStringCalculator_NewlineAndCom() METHOD
+RefactoringAction 1473858123672 StringCalculatorTest.java RENAME testStringCalculator_NewlineAndCom()=>void testStringCalculator_NewlineAndCommaNextToEachOther() METHOD
+EditAction 1473858141503 StringCalculatorTest.java 3414 12 35 11

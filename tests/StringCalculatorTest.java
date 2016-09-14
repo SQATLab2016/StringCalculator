@@ -134,4 +134,13 @@ public class StringCalculatorTest {
 		// Assert
 		assertEquals("Many numbers, newlines only (\"1\\n0\\n\\n8\\n10\")", 19, sum);
 	}
+
+	@Test
+	public void testStringCalculator_NewlineAndCommaNextToEachOther() throws StringCalculatorException {
+		// Arrange
+		String numbers = "1\n,2";
+		
+		// Act, should raise an exception
+		int sum = StringCalculator.add(numbers);
+	}
 }
