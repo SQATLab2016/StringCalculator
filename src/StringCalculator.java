@@ -29,6 +29,6 @@ public class StringCalculator {
 				throw new StringCalculatorException();
 		}
 		
-		return str.replaceAll('\n', ',');
+		return str.replaceAll("\n", ",");
 	}
 }
