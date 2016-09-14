@@ -23,7 +23,7 @@ public class StringCalculator {
 		int prevIndex = 0;
 		
 		while (prevIndex != -1) {
-			prevIndex = str.indexOf("\n", prevIndex);
+			prevIndex = str.indexOf('\n', prevIndex);
 			
 			if (str.charAt(prevIndex + 1) == ',')
 				throw new StringCalculatorException();
