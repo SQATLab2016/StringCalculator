@@ -6,6 +6,11 @@ public class StringCalculator {
 			return 0;
 		}
 		
+		// Returns the same number when given only one number
+		if (numbersStr.matches("^\\d+$")) {
+			return Integer.parseInt(numbersStr);
+		}
+		
 		// Returns the sum of the numbers given in numbersStr
 		
 		// not yet implemented
