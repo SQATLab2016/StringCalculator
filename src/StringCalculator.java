@@ -11,6 +11,8 @@ public class StringCalculator {
 		}
 		
 		String[] splitNumbers = numbersStr.split(",");
+		for (int i = 0; i < splitNumbers.length; i++)
+			splitNumbers[i] = splitNumbers[i].trim();
 		
 		try {
 			checkValidity(splitNumbers);
@@ -20,7 +22,7 @@ public class StringCalculator {
 		
 		int value = 0;
 		for (int i = 0; i < splitNumbers.length; i++)
-			value += Integer.valueOf(splitNumbers[i].trim());
+			value += Integer.valueOf(splitNumbers[i]);
 		
 		return value;
 	}

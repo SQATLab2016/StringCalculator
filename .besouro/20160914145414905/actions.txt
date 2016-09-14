@@ -164,3 +164,6 @@ RefactoringAction 1473856128631 StringCalculatorTest.java ADD void test_ FIELD
 RefactoringAction 1473856139147 StringCalculatorTest.java RENAME test_=>void test_Negative FIELD
 RefactoringAction 1473856154666 StringCalculatorTest.java RENAME test_Negative=>void test_NegativeNumbers() METHOD
 EditAction 1473856166981 StringCalculatorTest.java 1990 11 33 11
+UnitTestCaseAction 1473856169079 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473856169088 StringCalculatorTest.java FAIL
+EditAction 1473856205257 StringCalculator.java 1463 3 12 0
