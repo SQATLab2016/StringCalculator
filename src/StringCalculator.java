@@ -22,5 +22,7 @@ public class StringCalculator {
 			prevIndex = str.indexOf("\n", prevIndex);
 			
 		}
+		
+		return str.replaceAll("\n", ",");
 	}
 }
