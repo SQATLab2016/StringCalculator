@@ -16,3 +16,6 @@ UnitTestSessionAction 1473856711264 StringCalculatorTest.java OK
 RefactoringAction 1473856717335 StringCalculatorTest.java ADD void testStringCalculator_OneNumber()/2 METHOD
 RefactoringAction 1473856719347 StringCalculatorTest.java RENAME testStringCalculator_OneNumber()/2=>void testStringCalculator_OneNumber_2() METHOD
 EditAction 1473856726491 StringCalculatorTest.java 769 3 9 3
+UnitTestCaseAction 1473856730455 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856730456 StringCalculatorTest.java OK
+EditAction 1473856835700 StringCalculator.java 643 1 4 0

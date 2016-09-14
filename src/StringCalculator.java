@@ -11,6 +11,12 @@ public class StringCalculator {
 			return Integer.parseInt(numbersStr);
 		}
 		
+		// Returns the sum of two comma separated numbers
+		if (numbersStr.matches("^\\d+,\\d+$")) {
+			String numbers[] = numbersStr.split(",");
+			return Integer.parseInt(numbers[0]) + Integer.parseInt(numbers[1]);
+		}
+		
 		// Returns the sum of the numbers given in numbersStr
 		
 		// not yet implemented
