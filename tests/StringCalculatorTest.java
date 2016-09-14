@@ -16,4 +16,16 @@ public class StringCalculatorTest {
 		assertEquals("Empty string", 0, sum);
 	}
 
+	@Test
+	public void testStringCalculator_OneNumber() {
+		// Arrange
+		String numbers = "5";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("One number (5)", 5, sum);
+	}
+
 }
