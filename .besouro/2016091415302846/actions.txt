@@ -1,0 +1,2 @@
+FileOpenedAction 1473856228158 StringCalculator.java 180 1 1 0
+EditAction 1473856304000 StringCalculator.java 266 1 2 0
