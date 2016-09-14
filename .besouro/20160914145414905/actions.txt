@@ -147,3 +147,4 @@ RefactoringAction 1473855894975 StringCalculator.java RENAME checValidity(String
 RefactoringAction 1473855899490 StringCalculator.java RENAME checkValidity(String)=>void checkValidity(String METHOD
 CompilationAction 1473855903663 StringCalculator.java
 EditAction 1473855919493 StringCalculator.java 1041 3 10 0
+EditAction 1473855950602 StringCalculator.java 1102 3 9 0

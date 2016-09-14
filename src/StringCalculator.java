@@ -39,7 +39,9 @@ public class StringCalculator {
 	
 	private void checkValidity(String[] strings) throws StringCalculatorException {
 		for (int i = 0; i < strings.length; i++) {
-			
+			try {
+				int converted = Integer.valueOf(strings[i]);
+			}
 		}
 	}
 }
