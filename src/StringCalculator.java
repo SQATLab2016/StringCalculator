@@ -15,5 +15,7 @@ public class StringCalculator {
 		return value;
 	}
 	
-	
+	private String reformatNewLines(String str) throws StringCalculatorException {
+		
+	}
 }
