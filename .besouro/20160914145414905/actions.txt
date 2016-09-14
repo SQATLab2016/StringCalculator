@@ -68,3 +68,5 @@ EditAction 1473854865697 StringCalculatorTest.java 1458 8 24 8
 RefactoringAction 1473854872582 StringCalculatorTest.java RENAME test_threeNumbersWithNewLines_Incorrect()=>void test_twoNumbersWithNewLines_Incorrect() METHOD
 EditAction 1473854878492 StringCalculatorTest.java 1455 8 24 8
 EditAction 1473854948276 StringCalculator.java 409 1 6 0
+RefactoringAction 1473854956688 StringCalculatorTest.java REMOVE test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473854958058 StringCalculatorTest.java 1271 7 21 7

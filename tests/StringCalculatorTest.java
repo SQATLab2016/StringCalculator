@@ -52,11 +52,4 @@ public class StringCalculatorTest {
 		int result = calc.add("1\n2,3");
 		assertEquals(6, result);
 	}
-	
-	@Test
-	public void test_twoNumbersWithNewLines_Incorrect() {
-		StringCalculator calc = new StringCalculator();
-		int result = calc.add("1,\n");
-		assertEquals(6, result);
-	}
 }
