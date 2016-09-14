@@ -24,8 +24,8 @@ public class StringCalculator {
 		
 		while (prevIndex != -1) {
 			prevIndex = str.indexOf('\n', prevIndex);
-			
-			if (str.charAt(prevIndex + 1).Equals(','))
+			System.out.println("" + prevIndex);;
+			if (str.charAt(prevIndex + 1) == ',')
 				throw new StringCalculatorException();
 		}
 		
