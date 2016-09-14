@@ -102,3 +102,5 @@ EditAction 1473855237937 StringCalculator.java 725 2 9 0
 CompilationAction 1473855238157 StringCalculator.java
 CompilationAction 1473855268339 StringCalculator.java
 EditAction 1473855277486 StringCalculator.java 800 2 9 0
+RefactoringAction 1473855306585 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Incorrect() METHOD
+EditAction 1473855316773 StringCalculatorTest.java 1457 8 24 8
