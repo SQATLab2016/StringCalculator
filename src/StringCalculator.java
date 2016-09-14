@@ -25,6 +25,9 @@ public class StringCalculator {
 		while (prevIndex != -1) {
 			prevIndex = str.indexOf('\n', prevIndex);
 			
+			if (prevIndex != -1 && prevIndex < str.length())
+				prevIndex++;
+			
 			if (str.charAt(prevIndex) == ',')
 				throw new StringCalculatorException();
 		}
