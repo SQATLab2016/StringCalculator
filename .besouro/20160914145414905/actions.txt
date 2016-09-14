@@ -122,3 +122,6 @@ UnitTestSessionAction 1473855560549 StringCalculatorTest.java FAIL
 EditAction 1473855617089 StringCalculator.java 796 2 9 0
 EditAction 1473855641499 StringCalculator.java 872 2 9 0
 EditAction 1473855645978 StringCalculator.java 876 2 9 0
+UnitTestCaseAction 1473855659816 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473855659817 StringCalculatorTest.java FAIL
+EditAction 1473855688336 StringCalculator.java 918 2 9 0
