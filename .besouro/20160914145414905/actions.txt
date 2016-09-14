@@ -5,3 +5,4 @@ RefactoringAction 1473854106236 StringCalculatorTest.java RENAME test_()=>void t
 RefactoringAction 1473854110250 StringCalculatorTest.java ADD void test_nullString()/2 METHOD
 RefactoringAction 1473854112260 StringCalculatorTest.java RENAME test_nullString()/2=>void test_eString() METHOD
 EditAction 1473854112444 StringCalculatorTest.java 264 2 2 0
+EditAction 1473854127745 StringCalculatorTest.java 287 2 2 0

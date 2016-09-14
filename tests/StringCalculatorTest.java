@@ -6,7 +6,8 @@ public class StringCalculatorTest {
 
 	@Test
 	public void test_nullString() {
-		fail("Not yet implemented");
+		StringCalculator calc = new StringCalculator();
+		
 	}
 
 	@Test
