@@ -52,4 +52,16 @@ public class StringCalculatorTest {
 		assertEquals("Two numbers (3, 9)", 12, sum);
 	}
 
+	@Test
+	public void testStringCalculator_TwoNumbers_2() {
+		// Arrange
+		String numbers = "50,0";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("Two numbers (50, 0)", 50, sum);
+	}
+
 }
