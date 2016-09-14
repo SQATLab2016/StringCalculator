@@ -25,7 +25,7 @@ public class StringCalculator {
 		
 		// Returns the sum of an unknown amount of numbers,
 		// separated by commas or newlines
-		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
+		if (numbersStr.matches("\\d+[\\d,\\n]+\\d+")) {
 			String numbers[] = numbersStr.split(",+|\\n+");
 			
 			int sum = 0;
