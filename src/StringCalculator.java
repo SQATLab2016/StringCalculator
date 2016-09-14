@@ -21,15 +21,13 @@ public class StringCalculator {
 		}
 		
 		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
-			String numbers[] = numbersStr.split(",+");
+			String numbers[] = numbersStr.split(",+|\\n+");
 			int sum = 0;
 			for (String number : numbers) {
 				sum += Integer.parseInt(number);
 			}
 			return sum;
 		}
-		
-		// 
 		
 		// not yet implemented
 		return 0;

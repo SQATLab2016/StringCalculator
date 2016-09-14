@@ -5,7 +5,7 @@ import org.junit.Test;
 public class StringCalculatorTest {
 
 	@Test
-	public void testStringCalculator_EmptyString() {
+	public void testStringCalculator_EmptyString() throws StringCalculatorException {
 		// Arrange
 		String numbers = "";
 		
@@ -17,7 +17,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_OneNumber() {
+	public void testStringCalculator_OneNumber() throws StringCalculatorException {
 		// Arrange
 		String numbers = "5";
 		
@@ -29,7 +29,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_OneNumber_2() {
+	public void testStringCalculator_OneNumber_2() throws StringCalculatorException {
 		// Arrange
 		String numbers = "37";
 		
@@ -41,7 +41,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_TwoNumbers() {
+	public void testStringCalculator_TwoNumbers() throws StringCalculatorException {
 		// Arrange
 		String numbers = "3,9";
 		
@@ -53,7 +53,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_TwoNumbers_2() {
+	public void testStringCalculator_TwoNumbers_2() throws StringCalculatorException {
 		// Arrange
 		String numbers = "50,0";
 		
@@ -65,7 +65,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_ManyNumbers() {
+	public void testStringCalculator_ManyNumbers() throws StringCalculatorException {
 		// Arrange
 		String numbers = "7,7,16";
 		
@@ -77,7 +77,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_ManyNumbers_2() {
+	public void testStringCalculator_ManyNumbers_2() throws StringCalculatorException {
 		// Arrange
 		String numbers = "1,2,3,4,5,6,7,8,9,100";
 		
@@ -89,7 +89,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_TwoNumbers_ManyCommas() {
+	public void testStringCalculator_TwoNumbers_ManyCommas() throws StringCalculatorException {
 		// Arrange
 		String numbers = "5,,,8";
 		
@@ -101,7 +101,7 @@ public class StringCalculatorTest {
 	}
 
 	@Test
-	public void testStringCalculator_ManyNumbers_ManyCommas() {
+	public void testStringCalculator_ManyNumbers_ManyCommas() throws StringCalculatorException {
 		// Arrange
 		String numbers = "1,,2,6,,0";
 		
