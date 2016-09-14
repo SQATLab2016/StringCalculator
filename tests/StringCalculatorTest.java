@@ -35,7 +35,7 @@ public class StringCalculatorTest {
 	@Test
 	public void test_twoNumbersWithWhitespace() {
 		StringCalculator calc = new StringCalculator();
-		int result = calc.add("4 , 2");
+		int result = calc.add(" 4 , 2 ");
 		assertEquals(6, result);
 	}
 }

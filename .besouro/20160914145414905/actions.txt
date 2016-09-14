@@ -36,3 +36,4 @@ RefactoringAction 1473854566975 StringCalculatorTest.java ADD void test_twoNumbe
 RefactoringAction 1473854568985 StringCalculatorTest.java RENAME test_twoNumbers()/2=>void test_twoNumbersW() METHOD
 EditAction 1473854570619 StringCalculatorTest.java 916 5 15 5
 EditAction 1473854572915 StringCalculatorTest.java 918 5 15 5
+EditAction 1473854576785 StringCalculatorTest.java 920 5 15 5
