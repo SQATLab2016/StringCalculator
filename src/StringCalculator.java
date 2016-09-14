@@ -19,7 +19,6 @@ public class StringCalculator {
 		if (numbersStr.matches(",\\n|\\n,")) {
 			throw new StringCalculatorException("Can't have commas and newlines next to each other.");
 		}
-		
 		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
 			String numbers[] = numbersStr.split(",+|\\n+");
 			int sum = 0;
@@ -28,8 +27,5 @@ public class StringCalculator {
 			}
 			return sum;
 		}
-		
-		// not yet implemented
-		return 0;
 	}
 }

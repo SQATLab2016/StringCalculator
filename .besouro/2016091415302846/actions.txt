@@ -76,3 +76,4 @@ EditAction 1473857824445 StringCalculatorException.java 139 1 1 0
 CompilationAction 1473857826531 StringCalculatorTest.java
 CompilationAction 1473857880018 StringCalculatorTest.java
 EditAction 1473857913857 StringCalculator.java 925 1 5 0
+EditAction 1473857931407 StringCalculator.java 878 1 4 0
