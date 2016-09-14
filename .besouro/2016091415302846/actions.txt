@@ -53,3 +53,8 @@ EditAction 1473857362201 StringCalculatorTest.java 2247 9 27 9
 UnitTestCaseAction 1473857365714 StringCalculatorTest.java OK
 UnitTestSessionAction 1473857365714 StringCalculatorTest.java OK
 EditAction 1473857437303 StringCalculator.java 692 1 4 0
+UnitTestCaseAction 1473857440504 StringCalculatorTest.java OK
+UnitTestSessionAction 1473857440504 StringCalculatorTest.java OK
+RefactoringAction 1473857452455 StringCalculator.java REMOVE add(String) METHOD
+RefactoringAction 1473857452704 StringCalculator.java ADD static int add(String) METHOD
+EditAction 1473857462626 StringCalculator.java 746 1 4 0

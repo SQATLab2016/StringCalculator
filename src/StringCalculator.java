@@ -1,5 +1,10 @@
 
 public class StringCalculator {
+	/**
+	 * Returns the sum of the numbers given in numbersStr
+	 * @param numbersStr
+	 * @return
+	 */
 	public static int add(String numbersStr) {
 		// Returns 0 for an empty string
 		if (numbersStr == "") {
@@ -21,7 +26,7 @@ public class StringCalculator {
 			return sum;
 		}
 		
-		// Returns the sum of the numbers given in numbersStr
+		// 
 		
 		// not yet implemented
 		return 0;
