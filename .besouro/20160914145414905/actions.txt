@@ -8,3 +8,4 @@ EditAction 1473854112444 StringCalculatorTest.java 264 2 2 0
 EditAction 1473854127745 StringCalculatorTest.java 287 2 2 0
 EditAction 1473854146291 StringCalculatorTest.java 315 2 3 0
 EditAction 1473854165055 StringCalculatorTest.java 343 2 4 1
+EditAction 1473854171200 StringCalculatorTest.java 420 2 6 2

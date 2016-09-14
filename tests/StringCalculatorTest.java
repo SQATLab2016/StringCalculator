@@ -13,6 +13,8 @@ public class StringCalculatorTest {
 
 	@Test
 	public void test_emptyString() {
-		fail("Not yet implemented");
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("");
+		assertEquals(0, result);
 	}
 }
