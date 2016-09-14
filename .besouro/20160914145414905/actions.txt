@@ -187,3 +187,4 @@ CompilationAction 1473856435887 StringCalculatorTest.java
 UnitTestCaseAction 1473856437891 StringCalculatorTest.java OK
 UnitTestSessionAction 1473856437892 StringCalculatorTest.java OK
 EditAction 1473856568188 StringCalculator.java 1506 3 12 0
+FileOpenedAction 1473856656930 SudokuVerifier.java 1942 1 14 0
