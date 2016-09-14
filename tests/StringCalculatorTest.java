@@ -24,4 +24,11 @@ public class StringCalculatorTest {
 		int result = calc.add("42");
 		assertEquals(42, result);
 	}
+	
+	@Test
+	public void test_twoNumbers() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("4,2");
+		assertEquals(6, result);
+	}
 }
