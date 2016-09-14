@@ -40,16 +40,9 @@ public class StringCalculatorTest {
 	}
 	
 	@Test
-	public void test_twoNumbersWithNewLines_Correct() {
+	public void test_threeNumbers() {
 		StringCalculator calc = new StringCalculator();
-		int result = calc.add("4\n2");
-		assertEquals(6, result);
-	}
-	
-	@Test
-	public void test_twoNumbersWithNewLines_Incorrect() {
-		StringCalculator calc = new StringCalculator();
-		int result = calc.add("4\n,2");
+		int result = calc.add("1,2,3");
 		assertEquals(6, result);
 	}
 }

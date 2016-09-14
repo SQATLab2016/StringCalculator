@@ -56,3 +56,5 @@ RefactoringAction 1473854792862 StringCalculatorTest.java RENAME test_twoNumbers
 RefactoringAction 1473854795874 StringCalculatorTest.java ADD void test_twoNumbersWithNewLines_Correct()/2 METHOD
 RefactoringAction 1473854799389 StringCalculatorTest.java RENAME test_twoNumbersWithNewLines_Correct()/2=>void test_twoNumbersWithNewLines_Incorrect() METHOD
 EditAction 1473854809689 StringCalculatorTest.java 1287 7 21 7
+RefactoringAction 1473854824460 StringCalculatorTest.java RENAME test_=>void test_threeNumbers() METHOD
+EditAction 1473854843841 StringCalculatorTest.java 1085 6 18 6
