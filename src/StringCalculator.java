@@ -4,7 +4,11 @@ public class StringCalculator {
 		if (numbersStr == null || numbersStr.length() == 0)
 			return 0;
 		
-		numbersStr = reformatNewLines(numbersStr);
+		try {
+			numbersStr = reformatNewLines(numbersStr);
+		} catch (StringCalculatorException sce) {
+			return -1;
+		}
 		
 		String[] splitNumbers = numbersStr.split(",");
 		
