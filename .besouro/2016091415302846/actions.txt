@@ -130,3 +130,9 @@ RefactoringAction 1473858588149 StringCalculator.java ADD import java.util.regex
 EditAction 1473858607334 StringCalculator.java 974 1 6 0
 CompilationAction 1473858609640 StringCalculator.java
 EditAction 1473858616398 StringCalculator.java 951 1 6 0
+CompilationAction 1473858618410 StringCalculator.java
+RefactoringAction 1473858626393 StringCalculator.java ADD import java.util.regex.Matcher IMPORT
+CompilationAction 1473858666539 StringCalculator.java
+UnitTestCaseAction 1473858675968 StringCalculatorTest.java OK
+UnitTestSessionAction 1473858675968 StringCalculatorTest.java OK
+EditAction 1473858690663 StringCalculator.java 1074 1 6 0
