@@ -88,4 +88,16 @@ public class StringCalculatorTest {
 		assertEquals("Many numbers (1...9, 100)", 145, sum);
 	}
 
+
+	@Test
+	public void testStringCalculator_TwoNumbers_ManyCommas() {
+		// Arrange
+		String numbers = "5,,,8";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("Two numbers, many commas (\"5,,,8\")", 13, sum);
+	}
 }
