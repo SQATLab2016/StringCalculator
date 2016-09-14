@@ -2,8 +2,6 @@
 public class StringCalculator {
 	/**
 	 * Returns the sum of the numbers given in numbersStr
-	 * @param numbersStr
-	 * @return int the sum
 	 */
 	public static int add(String numbersStr) {
 		// Returns 0 for an empty string
