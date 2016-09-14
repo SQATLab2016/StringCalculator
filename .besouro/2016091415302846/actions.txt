@@ -86,3 +86,8 @@ RefactoringAction 1473857987712 StringCalculatorTest.java ADD void testStringCal
 RefactoringAction 1473857996994 StringCalculatorTest.java RENAME testStringCalculator_ManyNumbers_ManyCommas()/2=>void testStringCalculator_ManyNumbers_NewlineAndCommas() METHOD
 RefactoringAction 1473857998554 StringCalculatorTest.java RENAME testStringCalculator_ManyNumbers_NewlineAndCommas()=>void testStringCalculator_ManyNumbers_NewlineAndComma() METHOD
 EditAction 1473858047179 StringCalculatorTest.java 2851 10 30 10
+UnitTestCaseAction 1473858051066 StringCalculatorTest.java OK
+UnitTestSessionAction 1473858051066 StringCalculatorTest.java OK
+RefactoringAction 1473858059802 StringCalculatorTest.java ADD void testStringCalculator_ManyNumbers_NewlineAndComma()/2 METHOD
+RefactoringAction 1473858064966 StringCalculatorTest.java RENAME testStringCalculator_ManyNumbers_NewlineAndComma()/2=>void testStringCalculator_ManyNumbers_NewlinesOnly() METHOD
+EditAction 1473858101049 StringCalculatorTest.java 3169 11 33 11

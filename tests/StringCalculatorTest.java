@@ -122,4 +122,16 @@ public class StringCalculatorTest {
 		// Assert
 		assertEquals("Many numbers, newline and comma (\"1,2\\n,6\")", 9, sum);
 	}
+
+	@Test
+	public void testStringCalculator_ManyNumbers_NewlinesOnly() throws StringCalculatorException {
+		// Arrange
+		String numbers = "1\n0\n\n8\n10";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("Many numbers, newlines only (\"1\\n0\\n\\n8\\n10\")", 19, sum);
+	}
 }
