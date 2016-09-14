@@ -30,3 +30,8 @@ CompilationAction 1473854516000 StringCalculator.java
 EditAction 1473854534447 StringCalculator.java 342 1 5 0
 RefactoringAction 1473854550429 StringCalculatorTest.java ADD void test_twoNumbers() METHOD
 EditAction 1473854557140 StringCalculatorTest.java 741 4 12 4
+UnitTestCaseAction 1473854559192 StringCalculatorTest.java OK
+UnitTestSessionAction 1473854559194 StringCalculatorTest.java OK
+RefactoringAction 1473854566975 StringCalculatorTest.java ADD void test_twoNumbers()/2 METHOD
+RefactoringAction 1473854568985 StringCalculatorTest.java RENAME test_twoNumbers()/2=>void test_twoNumbersW() METHOD
+EditAction 1473854570619 StringCalculatorTest.java 916 5 15 5
