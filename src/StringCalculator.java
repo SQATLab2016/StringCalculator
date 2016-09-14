@@ -8,7 +8,7 @@ public class StringCalculator {
 		
 		int value = 0;
 		for (int i = 0; i < splitNumbers.length; i++)
-			value += Integer.valueOf(splitNumbers[i]);
+			value += Integer.valueOf(splitNumbers[i].trim());
 		
 		return value;
 	}
