@@ -73,4 +73,11 @@ public class StringCalculatorTest {
 		int result = calc.add("1,a,43,c");
 		assertEquals(-1, result);
 	}
+	
+	@Test
+	public void test_NegativeNumbers() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("4,-1,15");
+		assertEquals(-1, result);
+	}
 }
