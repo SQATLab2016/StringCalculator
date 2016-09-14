@@ -66,4 +66,11 @@ public class StringCalculatorTest {
 		int result = calc.add("1,2\n3,4,5,6\n7");
 		assertEquals(28, result);
 	}
+	
+	@Test
+	public void test_NumbersAndLetters() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("1,a,43,c");
+		assertEquals(-1, result);
+	}
 }

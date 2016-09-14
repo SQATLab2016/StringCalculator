@@ -12,6 +12,12 @@ public class StringCalculator {
 		
 		String[] splitNumbers = numbersStr.split(",");
 		
+		try {
+			checkValidity(splitNumbers);
+		} catch (StringCalculatorException sce) {
+			return -1;
+		}
+		
 		int value = 0;
 		for (int i = 0; i < splitNumbers.length; i++)
 			value += Integer.valueOf(splitNumbers[i].trim());

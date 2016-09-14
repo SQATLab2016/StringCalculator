@@ -153,3 +153,10 @@ CompilationAction 1473855996660 StringCalculator.java
 CompilationAction 1473855996831 StringCalculator.java
 EditAction 1473856021705 StringCalculator.java 1189 3 10 0
 EditAction 1473856038693 StringCalculator.java 1264 3 10 0
+CompilationAction 1473856055862 StringCalculator.java
+CompilationAction 1473856077502 StringCalculator.java
+RefactoringAction 1473856084463 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473856093977 StringCalculatorTest.java RENAME test_=>void test_S FIELD
+RefactoringAction 1473856094986 StringCalculatorTest.java RENAME test_S=>void test_ FIELD
+RefactoringAction 1473856111052 StringCalculatorTest.java RENAME test_=>void test_NumbersAndLetters() METHOD
+EditAction 1473856121789 StringCalculatorTest.java 1819 10 30 10
