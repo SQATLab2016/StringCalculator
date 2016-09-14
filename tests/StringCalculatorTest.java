@@ -59,4 +59,11 @@ public class StringCalculatorTest {
 		int result = calc.add("1\n,2");
 		assertEquals(-1, result);
 	}
+	
+	@Test
+	public void test_SevenNumbersWithNewLines() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("1,2\n3,4,5,6\n7");
+		assertEquals(28, result);
+	}
 }
