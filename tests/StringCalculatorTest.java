@@ -38,4 +38,11 @@ public class StringCalculatorTest {
 		int result = calc.add(" 4 , 2 ");
 		assertEquals(6, result);
 	}
+	
+	@Test
+	public void test_twoNumbersWithNewLines() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("4\n2");
+		assertEquals(6, result);
+	}
 }

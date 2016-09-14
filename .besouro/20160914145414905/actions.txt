@@ -48,3 +48,7 @@ RefactoringAction 1473854733557 StringCalculator.java ADD String replaceNewLines
 RefactoringAction 1473854738069 StringCalculator.java RENAME replaceNewLinesWithCommas()=>String replaceNewLinesWithCommas(String) METHOD
 RefactoringAction 1473854740079 StringCalculator.java REMOVE replaceNewLinesWithCommas(String) METHOD
 EditAction 1473854761146 StringCalculator.java 403 1 6 0
+RefactoringAction 1473854768748 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473854772766 StringCalculatorTest.java RENAME test_=>void test_twoNumbersWith FIELD
+RefactoringAction 1473854775278 StringCalculatorTest.java RENAME test_twoNumbersWith=>void test_twoNumbersWithNewLines() METHOD
+EditAction 1473854787533 StringCalculatorTest.java 1094 6 18 6
