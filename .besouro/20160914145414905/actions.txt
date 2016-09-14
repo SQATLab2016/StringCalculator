@@ -142,3 +142,8 @@ RefactoringAction 1473855860862 StringCalculator.java REMOVE testOnly FIELD
 RefactoringAction 1473855866873 StringCalculator.java ADD void ensureOnly FIELD
 RefactoringAction 1473855870887 StringCalculator.java RENAME ensureOnly=>void ensureOnlyNumbers(String) METHOD
 EditAction 1473855877123 StringCalculator.java 987 3 9 0
+CompilationAction 1473855890460 StringCalculator.java
+RefactoringAction 1473855894975 StringCalculator.java RENAME checValidity(String)=>void checkValidity(String) METHOD
+RefactoringAction 1473855899490 StringCalculator.java RENAME checkValidity(String)=>void checkValidity(String METHOD
+CompilationAction 1473855903663 StringCalculator.java
+EditAction 1473855919493 StringCalculator.java 1041 3 10 0

@@ -37,7 +37,9 @@ public class StringCalculator {
 		return str.replaceAll("\n", ",");
 	}
 	
-	private void ensureOnlyNumbers(String str) throws StringCalculatorException {
-		
+	private void checkValidity(String[] strings) throws StringCalculatorException {
+		for (int i = 0; i < strings.length; i++) {
+			
+		}
 	}
 }
