@@ -19,7 +19,7 @@ public class StringCalculator {
 		// separated by commas or newlines
 		Pattern p = Pattern.compile(",\\n|\\n,");
 		Matcher m = p.matcher(numbersStr);
-		if (numbersStr.matches(",\\n|\\n,")) {
+		if (m.find()) {
 			throw new StringCalculatorException();
 		}
 		else if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {

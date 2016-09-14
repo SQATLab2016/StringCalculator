@@ -128,3 +128,5 @@ UnitTestCaseAction 1473858495153 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1473858495153 StringCalculatorTest.java FAIL
 RefactoringAction 1473858588149 StringCalculator.java ADD import java.util.regex.Pattern IMPORT
 EditAction 1473858607334 StringCalculator.java 974 1 6 0
+CompilationAction 1473858609640 StringCalculator.java
+EditAction 1473858616398 StringCalculator.java 951 1 6 0
