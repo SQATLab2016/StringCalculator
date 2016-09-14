@@ -5,7 +5,14 @@ import org.junit.Test;
 public class StringCalculatorTest {
 
 	@Test
-	public void test() {
+	public void testStringCalculator_EmptyString() {
+		// Arrange
+		String numbers = "";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
 		fail("Not yet implemented");
 	}
 
