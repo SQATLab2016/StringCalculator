@@ -10,9 +10,6 @@ public class StringCalculator {
 		for (int i = 0; i < splitNumbers.length; i++)
 			value += Integer.valueOf(splitNumbers[i]);
 		
-		// Returns the sum of the numbers given in numbersStr
-		
-		// not yet implemented
 		return value;
 	}
 }
