@@ -4,11 +4,11 @@ public class StringCalculator {
 		if (numbersStr == null || numbersStr.length() == 0)
 			return 0;
 		
-		int value = Integer.valueOf(numberStr);
+		int value = Integer.valueOf(numbersStr);
 		
 		// Returns the sum of the numbers given in numbersStr
 		
 		// not yet implemented
-		return 0;
+		return value;
 	}
 }

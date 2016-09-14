@@ -17,4 +17,11 @@ public class StringCalculatorTest {
 		int result = calc.add("");
 		assertEquals(0, result);
 	}
+	
+	@Test
+	public void test_OneNumber() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("42");
+		assertEquals(42, result);
+	}
 }

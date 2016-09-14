@@ -12,3 +12,8 @@ EditAction 1473854171200 StringCalculatorTest.java 420 2 6 2
 UnitTestCaseAction 1473854184555 StringCalculatorTest.java OK
 UnitTestSessionAction 1473854184557 StringCalculatorTest.java OK
 EditAction 1473854259183 StringCalculator.java 300 1 3 0
+CompilationAction 1473854259389 StringCalculator.java
+CompilationAction 1473854265712 StringCalculator.java
+RefactoringAction 1473854276604 StringCalculatorTest.java ADD void test_ FIELD
+RefactoringAction 1473854282620 StringCalculatorTest.java RENAME test_=>void test_OneNumber() METHOD
+EditAction 1473854292750 StringCalculatorTest.java 580 3 9 3
