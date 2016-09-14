@@ -14,8 +14,12 @@ public class StringCalculator {
 			return Integer.parseInt(numbersStr);
 		}
 		
-		// Returns the sum of an unknown amount of numbers
-		if (numbersStr.matches("^\\d+[\\d,]*\\d+$")) {
+		// Returns the sum of an unknown amount of numbers,
+		// separated by commas or newlines
+		if (numbersStr.matches(",\\n|\\n,")) {
+			throw new StringCalculatorException("Can't have commas and newlines next to each other.");
+		}
+		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
 			String numbers[] = numbersStr.split(",+");
 			int sum = 0;
 			for (String number : numbers) {

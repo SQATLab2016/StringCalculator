@@ -60,3 +60,5 @@ RefactoringAction 1473857452704 StringCalculator.java ADD static int add(String)
 EditAction 1473857462626 StringCalculator.java 746 1 4 0
 EditAction 1473857486478 StringCalculator.java 758 1 4 0
 EditAction 1473857497445 StringCalculator.java 710 1 4 0
+FileOpenedAction 1473857661620 StringCalculatorException.java 67 0 0 0
+EditAction 1473857697656 StringCalculator.java 894 1 5 0
