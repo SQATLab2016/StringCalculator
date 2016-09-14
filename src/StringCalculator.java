@@ -1,3 +1,4 @@
+import java.util.regex.Pattern;
 
 public class StringCalculator {
 	/**
@@ -16,11 +17,12 @@ public class StringCalculator {
 		
 		// Returns the sum of an unknown amount of numbers,
 		// separated by commas or newlines
+		Pattern p = Pattern.compile(",\\n|\\n,");
+		Matcher m = p.matcher(numbersStr);
 		if (numbersStr.matches(",\\n|\\n,")) {
-			return 100;
 			throw new StringCalculatorException();
 		}
-		if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
+		else if (numbersStr.matches("^\\d+[\\d,\\n]+\\d+$")) {
 			String numbers[] = numbersStr.split(",+|\\n+");
 			
 			int sum = 0;
