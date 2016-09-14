@@ -31,3 +31,7 @@ EditAction 1473856884887 StringCalculatorTest.java 1229 5 15 5
 UnitTestCaseAction 1473856888505 StringCalculatorTest.java OK
 UnitTestSessionAction 1473856888506 StringCalculatorTest.java OK
 EditAction 1473857192074 StringCalculator.java 916 1 5 0
+RefactoringAction 1473857207050 StringCalculatorTest.java ADD void testStringCalculator_TwoNumbers()/2 METHOD
+RefactoringAction 1473857210654 StringCalculatorTest.java RENAME testStringCalculator_TwoNumbers()/2=>void testStringCalculator_ThreeNumbers() METHOD
+RefactoringAction 1473857212713 StringCalculatorTest.java RENAME testStringCalculator_ThreeNumbers()=>void testStringCalculator_ManyNumbers() METHOD
+EditAction 1473857233274 StringCalculatorTest.java 1466 6 18 6
