@@ -4,14 +4,7 @@ public class StringCalculator {
 		if (numbersStr == null || numbersStr.length() == 0)
 			return 0;
 		
-		String[] splitNumbers;
-		if (numbersStr.contains(",")) {
-			
-		} else {
-			
-		}
-		
-		= new String[2];
+		String[] splitNumbers = numbersStr.split(",");
 		
 		int value = 0;
 		for (int i = 0; i < splitNumbers.length; i++)
