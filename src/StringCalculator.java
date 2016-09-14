@@ -1,6 +1,6 @@
 
 public class StringCalculator {
-	public int add(String numbersStr) {
+	public static int add(String numbersStr) {
 		// Returns 0 for an empty string
 		if (numbersStr == "") {
 			return 0;
