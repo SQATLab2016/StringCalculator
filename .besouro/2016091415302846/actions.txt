@@ -11,3 +11,8 @@ EditAction 1473856678056 StringCalculator.java 419 1 3 0
 RefactoringAction 1473856688784 StringCalculatorTest.java ADD void testStringCalculator_EmptyString()/2 METHOD
 RefactoringAction 1473856694798 StringCalculatorTest.java RENAME testStringCalculator_EmptyString()/2=>void testStringCalculator_OneNumber() METHOD
 EditAction 1473856708537 StringCalculatorTest.java 544 2 6 2
+UnitTestCaseAction 1473856711263 StringCalculatorTest.java OK
+UnitTestSessionAction 1473856711264 StringCalculatorTest.java OK
+RefactoringAction 1473856717335 StringCalculatorTest.java ADD void testStringCalculator_OneNumber()/2 METHOD
+RefactoringAction 1473856719347 StringCalculatorTest.java RENAME testStringCalculator_OneNumber()/2=>void testStringCalculator_OneNumber_2() METHOD
+EditAction 1473856726491 StringCalculatorTest.java 769 3 9 3
