@@ -36,7 +36,8 @@ public class StringCalculator {
 			if (prevIndex == -1)
 				break;
 			
-			if (prevIndex < str.length() - 1 && str.charAt(prevIndex + 1) == ',')
+			if (prevIndex < str.length() - 1 &&
+				(str.charAt(prevIndex + 1) == ',' || str.charAt(prevIndex - 1) == ',')
 				throw new StringCalculatorException();
 			
 			prevIndex++;
