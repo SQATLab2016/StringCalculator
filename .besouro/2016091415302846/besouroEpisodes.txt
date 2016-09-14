@@ -17,3 +17,7 @@
 1473857365714 test-addition 1 30 true
 1473857365715 test-addition 1 30 true
 1473857440504 refactoring 2A 3 true
+1473857960567 production 1 508 false
+1473857960568 refactoring 2A 508 true
+1473857960569 production 2 508 false
+1473857960570 refactoring 2A 508 true

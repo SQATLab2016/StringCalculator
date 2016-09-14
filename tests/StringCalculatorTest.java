@@ -108,6 +108,18 @@ public class StringCalculatorTest {
 		int sum = StringCalculator.add(numbers);
 		
 		// Assert
-		assertEquals("Two numbers, many commas (\"1,,2,6,,0\")", 9, sum);
+		assertEquals("Many numbers, many commas (\"1,,2,6,,0\")", 9, sum);
+	}
+
+	@Test
+	public void testStringCalculator_ManyNumbers_NewlineAndComma() throws StringCalculatorException {
+		// Arrange
+		String numbers = "1,2\n6";
+		
+		// Act
+		int sum = StringCalculator.add(numbers);
+		
+		// Assert
+		assertEquals("Many numbers, newline and comma (\"1,2\\n,6\")", 9, sum);
 	}
 }
