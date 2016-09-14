@@ -65,3 +65,7 @@ EditAction 1473857697656 StringCalculator.java 894 1 5 0
 CompilationAction 1473857699356 StringCalculator.java
 RefactoringAction 1473857726984 StringCalculatorException.java ADD StringCalculatorException(String) METHOD
 EditAction 1473857731399 StringCalculatorException.java 139 1 1 0
+CompilationAction 1473857733520 StringCalculator.java
+CompilationAction 1473857814918 StringCalculator.java
+CompilationAction 1473857814989 StringCalculatorTest.java
+EditAction 1473857820100 StringCalculatorException.java 72 0 0 0
