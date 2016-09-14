@@ -17,6 +17,16 @@ public class StringCalculator {
 			return Integer.parseInt(numbers[0]) + Integer.parseInt(numbers[1]);
 		}
 		
+		// Returns the sum of an unknown amount of numbers
+		if (numbersStr.matches("^\\d+[\\d,]*\\d+$")) {
+			String numbers[] = numbersStr.split(",+");
+			int sum = 0;
+			for (String number : numbers) {
+				sum += Integer.parseInt(number);
+			}
+			return sum;
+		}
+		
 		// Returns the sum of the numbers given in numbersStr
 		
 		// not yet implemented
