@@ -20,8 +20,9 @@ public class StringCalculator {
 		
 		while (prevIndex != -1) {
 			prevIndex = str.indexOf("\n", prevIndex);
+			
 			if (str.charAt(prevIndex + 1) == ',')
-				throw StringCalculatorException;
+				throw new StringCalculatorException();
 		}
 		
 		return str.replaceAll("\n", ",");
