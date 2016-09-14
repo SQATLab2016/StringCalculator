@@ -4,7 +4,7 @@ public class StringCalculator {
 		if (numbersStr == null || numbersStr.length() == 0)
 			return 0;
 		
-		numbersStr = numbersStr.replaceAll("\n", ",");
+		numbersStr = reformatNewLines(numbersStr);
 		
 		String[] splitNumbers = numbersStr.split(",");
 		

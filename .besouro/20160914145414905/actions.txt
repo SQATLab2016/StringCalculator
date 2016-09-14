@@ -90,3 +90,12 @@ EditAction 1473855190984 StringCalculator.java 718 2 9 0
 CompilationAction 1473855191216 StringCalculator.java
 CompilationAction 1473855194369 StringCalculator.java
 EditAction 1473855197047 StringCalculator.java 729 2 9 0
+CompilationAction 1473855217074 StringCalculator.java
+CompilationAction 1473855217074 StringCalculator.java
+CompilationAction 1473855217075 StringCalculator.java
+CompilationAction 1473855217630 StringCalculator.java
+CompilationAction 1473855217631 StringCalculator.java
+CompilationAction 1473855218144 StringCalculator.java
+CompilationAction 1473855231266 StringCalculator.java
+CompilationAction 1473855231436 StringCalculatorTest.java
+EditAction 1473855237937 StringCalculator.java 725 2 9 0
