@@ -54,9 +54,16 @@ public class StringCalculatorTest {
 	}
 	
 	@Test
-	public void test_twoNumbersWithNewLines_Incorrect() {
+	public void test_twoNumbersWithNewLines_Incorrect1() {
 		StringCalculator calc = new StringCalculator();
 		int result = calc.add("1\n,2");
+		assertEquals(-1, result);
+	}
+	
+	@Test
+	public void test_twoNumbersWithNewLines_Incorrect2() {
+		StringCalculator calc = new StringCalculator();
+		int result = calc.add("1,\n2");
 		assertEquals(-1, result);
 	}
 	
