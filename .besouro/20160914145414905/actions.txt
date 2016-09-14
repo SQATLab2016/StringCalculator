@@ -1,2 +1,7 @@
 FileOpenedAction 1473854055050 StringCalculator.java 180 1 1 0
 EditAction 1473854096389 StringCalculator.java 253 1 2 0
+RefactoringAction 1473854102205 StringCalculatorTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1473854106236 StringCalculatorTest.java RENAME test_()=>void test_nullString() METHOD
+RefactoringAction 1473854110250 StringCalculatorTest.java ADD void test_nullString()/2 METHOD
+RefactoringAction 1473854112260 StringCalculatorTest.java RENAME test_nullString()/2=>void test_eString() METHOD
+EditAction 1473854112444 StringCalculatorTest.java 264 2 2 0
