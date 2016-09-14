@@ -30,6 +30,8 @@ public class StringCalculator {
 			
 			if (prevIndex < str.length() - 1 && str.charAt(prevIndex + 1) == ',')
 				throw new StringCalculatorException();
+			
+			prevIndex++;
 		}
 		
 		return str.replaceAll("\n", ",");
