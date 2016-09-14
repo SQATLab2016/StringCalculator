@@ -13,7 +13,7 @@ public class StringCalculatorTest {
 		int sum = StringCalculator.add(numbers);
 		
 		// Assert
-		fail("Not yet implemented");
+		assertEquals("Empty string", 0, sum);
 	}
 
 }
