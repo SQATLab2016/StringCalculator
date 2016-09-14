@@ -27,5 +27,7 @@ public class StringCalculator {
 			}
 			return sum;
 		}
+		
+		return 0;
 	}
 }
