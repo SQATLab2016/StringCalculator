@@ -98,3 +98,11 @@ RefactoringAction 1473858115950 StringCalculatorTest.java RENAME testStringCalcu
 RefactoringAction 1473858119553 StringCalculatorTest.java RENAME testStringCalculator_NewlinesOnly()=>void testStringCalculator_NewlineAndCom() METHOD
 RefactoringAction 1473858123672 StringCalculatorTest.java RENAME testStringCalculator_NewlineAndCom()=>void testStringCalculator_NewlineAndCommaNextToEachOther() METHOD
 EditAction 1473858141503 StringCalculatorTest.java 3414 12 35 11
+UnitTestCaseAction 1473858145577 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473858145577 StringCalculatorTest.java FAIL
+CompilationAction 1473858161162 StringCalculatorTest.java
+CompilationAction 1473858167292 StringCalculatorTest.java
+UnitTestCaseAction 1473858170961 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473858170961 StringCalculatorTest.java FAIL
+FileOpenedAction 1473858182365 StringCalculatorException.java 139 1 1 0
+EditAction 1473858198090 StringCalculatorException.java 126 1 0 0

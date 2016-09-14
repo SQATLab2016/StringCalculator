@@ -135,7 +135,7 @@ public class StringCalculatorTest {
 		assertEquals("Many numbers, newlines only (\"1\\n0\\n\\n8\\n10\")", 19, sum);
 	}
 
-	@Test
+	@Test (expected = StringCalculatorException.class)
 	public void testStringCalculator_NewlineAndCommaNextToEachOther() throws StringCalculatorException {
 		// Arrange
 		String numbers = "1\n,2";
