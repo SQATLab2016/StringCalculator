@@ -4,7 +4,6 @@ public class StringCalculator {
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfFirstCharacterIsANumber(numbersStr)) {
 			return 0;
 		}
-	
 		else {
 			throw new StringCalculatorException("String contains more than just numbers");
 		}

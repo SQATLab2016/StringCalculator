@@ -37,11 +37,12 @@ public class StringCalculatorTest {
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
-			assertEquals(0, SC.add(s));
+			SC.add(s);
 		}
 		catch (Exception e) {
-			
+			thrown = true;
 		}
+		assertEquals("comma first", true, thrown);
 	}
 	
 	@Test
@@ -50,11 +51,12 @@ public class StringCalculatorTest {
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
-			assertEquals(0, SC.add(s));
+			SC.add(s);
 		}
 		catch (Exception e) {
-			
+			thrown = true;
 		}
+		assertEquals("new line first", true, thrown);
 	}
 
 }
