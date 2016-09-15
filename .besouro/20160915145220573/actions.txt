@@ -113,3 +113,13 @@ RefactoringAction 1473943323083 StringCalculatorTest.java RENAME testStringWithN
 RefactoringAction 1473943325598 StringCalculatorTest.java RENAME testStringWithNE()=>void testStringWithNegative() METHOD
 RefactoringAction 1473943328117 StringCalculatorTest.java RENAME testStringWithNegative()=>void testStringWithNegativeNumber() METHOD
 EditAction 1473943352228 StringCalculatorTest.java 1388 5 23 4
+UnitTestCaseAction 1473943356498 StringCalculatorTest.java OK
+UnitTestSessionAction 1473943356499 StringCalculatorTest.java OK
+RefactoringAction 1473944052329 StringCalculator.java RENAME numbers=>List<Integer> list FIELD
+RefactoringAction 1473944059356 StringCalculator.java REMOVE list FIELD
+RefactoringAction 1473944061868 StringCalculator.java ADD List<Integer> numbers FIELD
+RefactoringAction 1473944110062 StringCalculator.java ADD import java.util.List IMPORT
+RefactoringAction 1473944114330 StringCalculator.java ADD import java.util.ArrayList IMPORT
+UnitTestCaseAction 1473944194754 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944194755 StringCalculatorTest.java OK
+EditAction 1473944211416 StringCalculator.java 1059 3 5 0

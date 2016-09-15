@@ -1,8 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class StringCalculator {
-	private int[] numbers;
+	private List<Integer> numbers = new ArrayList<>();
 	public int add(String numbersStr) throws StringCalculatorException{
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
+			for(char c: numbersStr.toCharArray()) {
+				int counter = 0;
+				if(counter%2 == 0) {
+					numbers.add(Character.getNumericValue(c));
+				}
+				counter++;
+			}
+			
 			return 0;
 		}
 		else {
