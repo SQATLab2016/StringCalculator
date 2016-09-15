@@ -6,8 +6,12 @@ public class StringCalculator {
 		if (str.equals(""))
 			return 0;
 		
-		if (str.length() == 1){
-			return (int)str;
+		else if (str.length() == 1){
+			return Integer.parseInt(str);
+		}
+		
+		else if (str.length() == 3){
+			
 		}
 		// not yet implemented
 		return result;
