@@ -1,0 +1,17 @@
+FileOpenedAction 1473940340810 StringCalculator.java 171 1 1 0
+RefactoringAction 1473940615869 StringCalculator.java ADD boolean C FIELD
+RefactoringAction 1473940618894 StringCalculator.java RENAME C=>boolean check FIELD
+RefactoringAction 1473940620928 StringCalculator.java RENAME check=>boolean checkIf FIELD
+RefactoringAction 1473940623946 StringCalculator.java RENAME checkIf=>boolean checkIfNumber FIELD
+RefactoringAction 1473940624964 StringCalculator.java RENAME checkIfNumber=>boolean checkIfNumbers FIELD
+RefactoringAction 1473940634483 StringCalculator.java RENAME checkIfNumbers=>boolean checkIfStringContainsNumbers FIELD
+RefactoringAction 1473940638003 StringCalculator.java RENAME checkIfStringContainsNumbers=>boolean checkIfStringContainsNumbers() METHOD
+RefactoringAction 1473940640520 StringCalculator.java RENAME checkIfStringContainsNumbers()=>boolean checkIfStringContainsNumbers(String) METHOD
+RefactoringAction 1473940991310 StringCalculatorException.java ADD void LengthException(String) METHOD
+RefactoringAction 1473941001835 StringCalculatorException.java RENAME LengthException(String)=>void Strinxception(String) METHOD
+RefactoringAction 1473941002854 StringCalculatorException.java RENAME Strinxception(String)=>void Stringxception(String) METHOD
+RefactoringAction 1473941004866 StringCalculatorException.java RENAME Stringxception(String)=>void StringCalculaxception(String) METHOD
+RefactoringAction 1473941005884 StringCalculatorException.java RENAME StringCalculaxception(String)=>void StringCalculatorxception(String) METHOD
+RefactoringAction 1473941007396 StringCalculatorException.java RENAME StringCalculatorxception(String)=>StringCalculatorException(String) METHOD
+RefactoringAction 1473941033425 StringCalculatorException.java ADD long serialVersionUID FIELD
+EditAction 1473941035709 StringCalculatorException.java 181 1 1 0
