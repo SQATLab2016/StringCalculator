@@ -16,3 +16,17 @@ RefactoringAction 1473941007396 StringCalculatorException.java RENAME StringCalc
 RefactoringAction 1473941033425 StringCalculatorException.java ADD long serialVersionUID FIELD
 EditAction 1473941035709 StringCalculatorException.java 181 1 1 0
 EditAction 1473941087650 StringCalculator.java 524 2 3 0
+RefactoringAction 1473941158491 StringCalculatorTest.java RENAME test()=>void testS() METHOD
+RefactoringAction 1473941160008 StringCalculatorTest.java RENAME testS()=>void testStrinb() METHOD
+RefactoringAction 1473941161025 StringCalculatorTest.java RENAME testStrinb()=>void testString() METHOD
+RefactoringAction 1473941163048 StringCalculatorTest.java RENAME testString()=>void testStringW() METHOD
+RefactoringAction 1473941164567 StringCalculatorTest.java RENAME testStringW()=>void testString() METHOD
+RefactoringAction 1473941167079 StringCalculatorTest.java RENAME testString()=>void testStringWith() METHOD
+RefactoringAction 1473941169092 StringCalculatorTest.java RENAME testStringWith()=>void testStringWithNumber() METHOD
+RefactoringAction 1473941173604 StringCalculatorTest.java RENAME testStringWithNumber()=>void testStringWith2Number() METHOD
+RefactoringAction 1473941175615 StringCalculatorTest.java RENAME testStringWith2Number()=>void testStringWith2Numbers() METHOD
+RefactoringAction 1473941181628 StringCalculatorTest.java RENAME testStringWith2Numbers()=>void testStringWithNumbers() METHOD
+RefactoringAction 1473941183138 StringCalculatorTest.java RENAME testStringWithNumbers()=>void testStringWithNumber() METHOD
+RefactoringAction 1473941427657 StringCalculatorTest.java ADD void testStringWithNumber()/2 METHOD
+RefactoringAction 1473941433175 StringCalculatorTest.java RENAME testStringWithNumber()/2=>void testStringWithLetter() METHOD
+EditAction 1473941500325 StringCalculatorTest.java 518 2 6 0
