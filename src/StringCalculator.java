@@ -29,7 +29,7 @@ public class StringCalculator {
 	
 	private boolean checkIfStringContainsOnlyNumbersAndAcceptableCharacters(String s) {
 		for(char c: s.toCharArray()) {
-			if(!Character.isDigit(c) || c != ',' || c != '\n' || c == '-') {
+			if(!Character.isDigit(c) || c != ',' || c != '\r' || c != '\n' || c == '-') {
 				return false;
 			}
 		}
