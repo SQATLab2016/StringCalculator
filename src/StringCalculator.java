@@ -8,7 +8,10 @@ public class StringCalculator {
 			for(char c: numbersStr.toCharArray()) {
 				int counter = 0;
 				if(counter%2 == 0) {
-					if (checkIfCharacterIsANumber(c)) {
+					if(c =='\r') {
+						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
+					}
+					else if (checkIfCharacterIsANumber(c)) {
 						numbers.add(Character.getNumericValue(c));
 					}
 					else {
