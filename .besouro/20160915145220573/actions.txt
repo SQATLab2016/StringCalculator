@@ -54,3 +54,9 @@ EditAction 1473941755894 StringCalculatorTest.java 592 2 8 1
 UnitTestCaseAction 1473941757638 StringCalculatorTest.java OK
 UnitTestSessionAction 1473941757639 StringCalculatorTest.java OK
 EditAction 1473941768610 StringCalculatorTest.java 594 2 8 1
+RefactoringAction 1473941795801 StringCalculator.java RENAME checkIfStringContainsNumbers(String)=>boolean checkIfStringContainsOnlyNumbers(String) METHOD
+RefactoringAction 1473941798313 StringCalculator.java RENAME checkIfStringContainsOnlyNumbers(String)=>boolean checkIfStringContainsOnlyNumbersA(String) METHOD
+RefactoringAction 1473941799828 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersA(String)=>boolean checkIfStringContainsOnlyNumbersAnd(String) METHOD
+RefactoringAction 1473941802844 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersAnd(String)=>boolean checkIfStringContainsOnlyNumbersAndAcceptable(String) METHOD
+RefactoringAction 1473941825860 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersAndAcceptable(String)=>boolean checkIfStringContainsOnlyNumbersAndAcceptableCharacters(String) METHOD
+EditAction 1473941936702 StringCalculator.java 603 2 3 0
