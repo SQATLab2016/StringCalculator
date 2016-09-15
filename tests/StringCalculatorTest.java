@@ -47,7 +47,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNewLine() {
-		String s = "\\n";
+		String s = System.lineSeparator();
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
@@ -75,7 +75,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithCommaNewLineCombination() {
-		String s = "1,\\n2";
+		String s = "1,\n2";
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
