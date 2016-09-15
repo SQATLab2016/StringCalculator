@@ -13,7 +13,7 @@ public class StringCalculator {
 						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
 						skip++;
 						if(skip > 2) {
-							throw new StringCalculatorException("String contains too many 'break' characters in a row");
+							throw new StringCalculatorException("String contains too many newline characters in a row");
 						}
 					}
 					else if (checkIfCharacterIsANumber(c)) {
