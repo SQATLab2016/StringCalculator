@@ -80,3 +80,6 @@ RefactoringAction 1473942254276 StringCalculator.java RENAME checkIfFirstCharact
 RefactoringAction 1473942258292 StringCalculator.java RENAME checkIfFirstCharacterIsANumber=>boolean checkIfFirstCharacterIsANumber() METHOD
 RefactoringAction 1473942259308 StringCalculator.java RENAME checkIfFirstCharacterIsANumber()=>boolean checkIfFirstCharacterIsANumber(String) METHOD
 EditAction 1473942570546 StringCalculator.java 808 3 6 0
+UnitTestCaseAction 1473942572176 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942572177 StringCalculatorTest.java OK
+EditAction 1473942666433 StringCalculator.java 843 3 6 0
