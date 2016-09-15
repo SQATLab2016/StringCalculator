@@ -53,3 +53,5 @@ CompilationAction 1473946998259 StringCalculator.java
 CompilationAction 1473946998259 StringCalculator.java
 CompilationAction 1473947021344 StringCalculator.java
 EditAction 1473947046444 StringCalculatorTest.java 411 2 6 2
+RefactoringAction 1473947051192 StringCalculatorTest.java ADD void testAddWithOne()/2 METHOD
+EditAction 1473947063835 StringCalculatorTest.java 573 3 9 3

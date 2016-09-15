@@ -21,4 +21,13 @@ public class StringCalculatorTest {
 		
 		assertEquals(1235, calc.add(test));
 	}
+	
+	@Test
+	public void testAddWithOne() {
+		StringCalculator calc = new StringCalculator();
+		
+		String test="213,500";
+		
+		assertEquals(713, calc.add(test));
+	}
 }
