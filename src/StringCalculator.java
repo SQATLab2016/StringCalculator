@@ -11,9 +11,9 @@ public class StringCalculator {
 					if (checkIfCharacterIsANumber(c)) {
 						numbers.add(Character.getNumericValue(c));
 					}
-				}
-				else {
-					throw new StringCalculatorException("String contains too many 'break' characters in a row");
+					else {
+						throw new StringCalculatorException("String contains too many 'break' characters in a row");
+					}
 				}
 				counter++;
 			}
