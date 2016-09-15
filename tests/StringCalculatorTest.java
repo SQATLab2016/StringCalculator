@@ -44,8 +44,8 @@ public class StringCalculatorTest {
 	public void testCountCommasWith4() {
 		StringCalculator calc = new StringCalculator();
 		
-		String test="213,500";
+		String test="213,500,2,0,1132";
 		
-		assertEquals(2, calc.countCommas(test));
+		assertEquals(4, calc.countCommas(test));
 	}
 }

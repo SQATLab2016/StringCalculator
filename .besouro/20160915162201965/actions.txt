@@ -84,3 +84,4 @@ RefactoringAction 1473947298909 StringCalculatorTest.java ADD void testCountComm
 EditAction 1473947301679 StringCalculatorTest.java 921 5 15 5
 CompilationAction 1473947301874 StringCalculatorTest.java
 EditAction 1473947303244 StringCalculatorTest.java 921 5 15 5
+EditAction 1473947312296 StringCalculatorTest.java 930 5 15 5
