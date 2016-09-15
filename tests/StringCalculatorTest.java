@@ -54,7 +54,7 @@ public class StringCalculatorTest {
 			SC.add(s);
 		}
 		catch (Exception e) {
-			thrown = true;
+			thrown = false;
 		}
 		assertEquals("new line first", true, thrown);
 	}
