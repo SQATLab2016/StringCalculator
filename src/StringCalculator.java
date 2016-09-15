@@ -1,7 +1,7 @@
 
 public class StringCalculator {
 	public int add(String numbersStr) throws StringCalculatorException{
-		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfFirstCharacterIsANumber(numbersStr)) {
+		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
 			return 0;
 		}
 		else {
@@ -22,9 +22,8 @@ public class StringCalculator {
 		return true;
 	}
 	
-	private boolean checkIfFirstCharacterIsANumber(String s) {
-		char[] c = s.toCharArray();
-		if(Character.isDigit(c[0])) {
+	private boolean checkIfCharacterIsANumber(char c) {
+		if(Character.isDigit(c)) {
 			return true;
 		}
 		return false;
