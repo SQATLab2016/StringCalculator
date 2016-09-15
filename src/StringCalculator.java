@@ -11,8 +11,9 @@ public class StringCalculator {
 				commaIndex = i;
 		}
 		
-		
-		
+		// If no commas, i.e. only one number
+		if(commaIndex == -1)
+			return Integer.parseInt(str);
 		// not yet implemented
 	}
 }
