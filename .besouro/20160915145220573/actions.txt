@@ -186,3 +186,10 @@ EditAction 1473945870930 StringCalculator.java 1264 3 5 0
 UnitTestCaseAction 1473945872534 StringCalculatorTest.java OK
 UnitTestSessionAction 1473945872535 StringCalculatorTest.java OK
 EditAction 1473945889468 StringCalculatorTest.java 1721 6 28 5
+UnitTestCaseAction 1473945891123 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945891124 StringCalculatorTest.java OK
+RefactoringAction 1473945901578 StringCalculatorTest.java ADD void testStringWithCommaNewLineCombination()/2 METHOD
+RefactoringAction 1473945911619 StringCalculatorTest.java RENAME testStringWithCommaNewLineCombination()/2=>void testStringWithNewLineCombination() METHOD
+RefactoringAction 1473945916640 StringCalculatorTest.java RENAME testStringWithNewLineCombination()=>void testStringWithNumberNewLineCombination() METHOD
+RefactoringAction 1473945923655 StringCalculatorTest.java RENAME testStringWithNumberNewLineCombination()=>void testStringWithNumberNewLineNumber() METHOD
+EditAction 1473945926354 StringCalculatorTest.java 2047 7 33 6
