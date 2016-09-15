@@ -90,7 +90,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNumberCommaNumber() {
-		String s = "1,2";
+		String s = "1\n2";
 		StringCalculator SC = new StringCalculator();
 		try {
 			assertEquals(0, SC.add(s));
