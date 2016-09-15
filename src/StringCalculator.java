@@ -32,7 +32,7 @@ public class StringCalculator {
 		else {
 			throw new StringCalculatorException("String contains more than just numbers");
 		}
-		
+		//
 	}
 	
 	private boolean checkIfStringContainsOnlyNumbersAndAcceptableCharacters(String s) {
