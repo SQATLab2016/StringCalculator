@@ -108,3 +108,8 @@ UnitTestCaseAction 1473943089195 StringCalculatorTest.java OK
 UnitTestSessionAction 1473943089196 StringCalculatorTest.java OK
 RefactoringAction 1473943122074 StringCalculator.java ADD int FIELD
 EditAction 1473943299825 StringCalculator.java 813 3 5 0
+RefactoringAction 1473943316565 StringCalculatorTest.java ADD void testStringWithNewLine()/2 METHOD
+RefactoringAction 1473943323083 StringCalculatorTest.java RENAME testStringWithNewLine()/2=>void testStringWithNE() METHOD
+RefactoringAction 1473943325598 StringCalculatorTest.java RENAME testStringWithNE()=>void testStringWithNegative() METHOD
+RefactoringAction 1473943328117 StringCalculatorTest.java RENAME testStringWithNegative()=>void testStringWithNegativeNumber() METHOD
+EditAction 1473943352228 StringCalculatorTest.java 1388 5 23 4

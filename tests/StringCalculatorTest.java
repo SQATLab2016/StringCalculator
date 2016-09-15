@@ -58,5 +58,19 @@ public class StringCalculatorTest {
 		}
 		assertEquals("new line first", true, thrown);
 	}
+	
+	@Test
+	public void testStringWithNegativeNumber() {
+		String s = "-1";
+		StringCalculator SC = new StringCalculator();
+		boolean thrown = false;
+		try {
+			SC.add(s);
+		}
+		catch (Exception e) {
+			thrown = true;
+		}
+		assertEquals("negative number", true, thrown);
+	}
 
 }
