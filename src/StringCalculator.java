@@ -4,7 +4,6 @@ public class StringCalculator {
 		// Returns the sum of the numbers given in numbersStr
 		if (str.equals(""))
 			return 0;
-		int num1=0, num2=0;
 		int commaIndex = -1;
 		for (int i = 0; i < str.length(); i++) {
 			if(str.charAt(i) == 44)
@@ -16,7 +15,8 @@ public class StringCalculator {
 			return Integer.parseInt(str);
 		// Two numbers.
 		else{
-			
+			String str1 = str.substring(0, commaIndex);
+			int num1 = Integer.parseInt(s) 
 		}
 		// not yet implemented
 	}
