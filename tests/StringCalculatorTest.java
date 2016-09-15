@@ -41,7 +41,7 @@ public class StringCalculatorTest {
 	}
 	
 	@Test
-	public void testCountCommasWith1() {
+	public void testCountCommasWith4() {
 		StringCalculator calc = new StringCalculator();
 		
 		String test="213,500";
