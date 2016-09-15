@@ -11,7 +11,8 @@ public class StringCalculator {
 		}
 		
 		else if (str.length() == 3){
-			int num1 = str.substring(0, 1);
+			int num1 = Integer.parseInt(str.substring(0, 1));
+			int num2 = Integer.parseInt(str.substring(2, 3));
 		}
 		// not yet implemented
 		return result;
