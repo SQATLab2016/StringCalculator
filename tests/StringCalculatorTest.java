@@ -92,15 +92,12 @@ public class StringCalculatorTest {
 	public void testStringWithNumberCommaNumber() {
 		String s = "1,2";
 		StringCalculator SC = new StringCalculator();
-		boolean thrown = false;
 		try {
-			SC.add(s);
+			assertEquals(0, SC.add(s));
 		}
 		catch (Exception e) {
 			//System.out.println(e.toString());
-			thrown = true;
 		}
-		assertEquals("Comma Newline combination", true, thrown);
 	}
 	
 	@Test
