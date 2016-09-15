@@ -9,14 +9,7 @@ public class StringCalculator {
 			int skip = 0;
 			for(char c: numbersStr.toCharArray()) {
 				if(counter%2 == 0) {
-					/*if(c =='\n') {
-						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
-						skip++;
-						if(skip > 1) {
-							throw new StringCalculatorException("String contains too many newline characters in a row");
-						}
-					}*/
-					else if (checkIfCharacterIsANumber(c)) {
+					if (checkIfCharacterIsANumber(c)) {
 						numbers.add(Character.getNumericValue(c));
 						skip = 0;
 					}
