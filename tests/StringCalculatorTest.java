@@ -90,7 +90,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNumberCommaNewLineNumber() {
-		String s = "1,,";
+		String s = "1\n,";
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
