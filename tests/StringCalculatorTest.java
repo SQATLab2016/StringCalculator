@@ -5,8 +5,12 @@ import org.junit.Test;
 public class StringCalculatorTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testAddWithEmpty() {
+		StringCalculator calc = new StringCalculator();
+		
+		String test="";
+		
+		assertEquals(0, calc.add(test))
 	}
 
 }
