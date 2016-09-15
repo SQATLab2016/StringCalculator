@@ -105,7 +105,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNumberNewLineNewLineNumber() {
-		String s = "1\n\n2";
+		String s = "1\n\n\n2";
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
