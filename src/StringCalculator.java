@@ -28,7 +28,9 @@ public class StringCalculator {
 		if(countCommas(str)<2)
 			return add(str);
 		else{
-			
+			for (int i = 0; i < str.length(); i++) {
+				
+			}
 			return 0;
 		}
 	}
