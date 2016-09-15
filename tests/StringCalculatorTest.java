@@ -90,14 +90,14 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNumberCommaNewLineNumber() {
-		String s = "1\n,";
+		String s = "1,\n2";
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
 			SC.add(s);
 		}
 		catch (Exception e) {
-			System.out.println(e.toString());
+			//System.out.println(e.toString());
 			thrown = true;
 		}
 		assertEquals("Comma Newline combination", true, thrown);
