@@ -23,4 +23,8 @@ public class StringCalculator {
 		}
 		// not yet implemented
 	}
+	
+	public int countCommas(String str){
+		
+	}
 }
