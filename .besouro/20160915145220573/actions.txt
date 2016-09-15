@@ -36,3 +36,6 @@ EditAction 1473941543699 StringCalculatorTest.java 538 2 6 0
 UnitTestCaseAction 1473941545271 StringCalculatorTest.java OK
 UnitTestSessionAction 1473941545272 StringCalculatorTest.java OK
 EditAction 1473941584055 StringCalculatorTest.java 538 2 6 0
+UnitTestCaseAction 1473941585724 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941585725 StringCalculatorTest.java OK
+EditAction 1473941606024 StringCalculatorTest.java 538 2 6 0
