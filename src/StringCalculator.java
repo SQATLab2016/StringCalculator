@@ -1,3 +1,9 @@
+//possibly misunderstood the task, unsure if it was supposed to add only one digit numbers, like I did or are numbers like 231 ok
+//not finished anyway
+
+
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,12 +12,10 @@ public class StringCalculator {
 	public int add(String numbersStr) throws StringCalculatorException{
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
 			int counter = 0;
-			int skip = 0;
 			for(char c: numbersStr.toCharArray()) {
 				if(counter%2 == 0) {
 					if (checkIfCharacterIsANumber(c)) {
 						numbers.add(Character.getNumericValue(c));
-						skip = 0;
 					}
 					else {
 						throw new StringCalculatorException("String contains too many 'break' characters in a row");
@@ -28,9 +32,6 @@ public class StringCalculator {
 		else {
 			throw new StringCalculatorException("String contains more than just numbers");
 		}
-		// Returns the sum of the numbers given in numbersStr
-		
-		// not yet implemented
 		
 	}
 	
