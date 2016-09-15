@@ -26,7 +26,6 @@ public class StringCalculator {
 	private boolean checkIfFirstCharacterIsANumber(String s) {
 		char[] c = s.toCharArray();
 		if(Character.isDigit(c[0])) {
-			System.out.println(c[0]);
 			return true;
 		}
 		return false;
