@@ -5,7 +5,10 @@ public class StringCalculator {
 		if (str.equals(""))
 			return 0;
 		
-		int length = str.length();
+		for (int i = 0; i < str.length(); i++) {
+			
+		}
+		
 		// not yet implemented
 	}
 }
