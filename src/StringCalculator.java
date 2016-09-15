@@ -12,7 +12,7 @@ public class StringCalculator {
 					if(c =='\r' || c =='\n') {
 						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
 						skip++;
-						if(skip > 2) {
+						if(skip > 1) {
 							throw new StringCalculatorException("String contains too many newline characters in a row");
 						}
 					}
