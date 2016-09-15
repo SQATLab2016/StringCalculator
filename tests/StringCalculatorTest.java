@@ -17,8 +17,8 @@ public class StringCalculatorTest {
 	public void testAddWithOne() {
 		StringCalculator calc = new StringCalculator();
 		
-		String test="";
+		String test="1235";
 		
-		assertEquals(0, calc.add(test));
+		assertEquals(1235, calc.add(test));
 	}
 }

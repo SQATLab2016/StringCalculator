@@ -16,7 +16,10 @@ public class StringCalculator {
 		// Two numbers.
 		else{
 			String str1 = str.substring(0, commaIndex);
-			int num1 = Integer.parseInt(s) 
+			String str2 = str.substring(commaIndex);
+			int num1 = Integer.parseInt(str1);
+			int num2 = Integer.parseInt(str2);
+			return num1 + num2;
 		}
 		// not yet implemented
 	}
