@@ -1,0 +1,311 @@
+FileOpenedAction 1473940340810 StringCalculator.java 171 1 1 0
+RefactoringAction 1473940615869 StringCalculator.java ADD boolean C FIELD
+RefactoringAction 1473940618894 StringCalculator.java RENAME C=>boolean check FIELD
+RefactoringAction 1473940620928 StringCalculator.java RENAME check=>boolean checkIf FIELD
+RefactoringAction 1473940623946 StringCalculator.java RENAME checkIf=>boolean checkIfNumber FIELD
+RefactoringAction 1473940624964 StringCalculator.java RENAME checkIfNumber=>boolean checkIfNumbers FIELD
+RefactoringAction 1473940634483 StringCalculator.java RENAME checkIfNumbers=>boolean checkIfStringContainsNumbers FIELD
+RefactoringAction 1473940638003 StringCalculator.java RENAME checkIfStringContainsNumbers=>boolean checkIfStringContainsNumbers() METHOD
+RefactoringAction 1473940640520 StringCalculator.java RENAME checkIfStringContainsNumbers()=>boolean checkIfStringContainsNumbers(String) METHOD
+RefactoringAction 1473940991310 StringCalculatorException.java ADD void LengthException(String) METHOD
+RefactoringAction 1473941001835 StringCalculatorException.java RENAME LengthException(String)=>void Strinxception(String) METHOD
+RefactoringAction 1473941002854 StringCalculatorException.java RENAME Strinxception(String)=>void Stringxception(String) METHOD
+RefactoringAction 1473941004866 StringCalculatorException.java RENAME Stringxception(String)=>void StringCalculaxception(String) METHOD
+RefactoringAction 1473941005884 StringCalculatorException.java RENAME StringCalculaxception(String)=>void StringCalculatorxception(String) METHOD
+RefactoringAction 1473941007396 StringCalculatorException.java RENAME StringCalculatorxception(String)=>StringCalculatorException(String) METHOD
+RefactoringAction 1473941033425 StringCalculatorException.java ADD long serialVersionUID FIELD
+EditAction 1473941035709 StringCalculatorException.java 181 1 1 0
+EditAction 1473941087650 StringCalculator.java 524 2 3 0
+RefactoringAction 1473941158491 StringCalculatorTest.java RENAME test()=>void testS() METHOD
+RefactoringAction 1473941160008 StringCalculatorTest.java RENAME testS()=>void testStrinb() METHOD
+RefactoringAction 1473941161025 StringCalculatorTest.java RENAME testStrinb()=>void testString() METHOD
+RefactoringAction 1473941163048 StringCalculatorTest.java RENAME testString()=>void testStringW() METHOD
+RefactoringAction 1473941164567 StringCalculatorTest.java RENAME testStringW()=>void testString() METHOD
+RefactoringAction 1473941167079 StringCalculatorTest.java RENAME testString()=>void testStringWith() METHOD
+RefactoringAction 1473941169092 StringCalculatorTest.java RENAME testStringWith()=>void testStringWithNumber() METHOD
+RefactoringAction 1473941173604 StringCalculatorTest.java RENAME testStringWithNumber()=>void testStringWith2Number() METHOD
+RefactoringAction 1473941175615 StringCalculatorTest.java RENAME testStringWith2Number()=>void testStringWith2Numbers() METHOD
+RefactoringAction 1473941181628 StringCalculatorTest.java RENAME testStringWith2Numbers()=>void testStringWithNumbers() METHOD
+RefactoringAction 1473941183138 StringCalculatorTest.java RENAME testStringWithNumbers()=>void testStringWithNumber() METHOD
+RefactoringAction 1473941427657 StringCalculatorTest.java ADD void testStringWithNumber()/2 METHOD
+RefactoringAction 1473941433175 StringCalculatorTest.java RENAME testStringWithNumber()/2=>void testStringWithLetter() METHOD
+EditAction 1473941500325 StringCalculatorTest.java 518 2 6 0
+UnitTestCaseAction 1473941502111 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941502112 StringCalculatorTest.java OK
+EditAction 1473941543699 StringCalculatorTest.java 538 2 6 0
+UnitTestCaseAction 1473941545271 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941545272 StringCalculatorTest.java OK
+EditAction 1473941584055 StringCalculatorTest.java 538 2 6 0
+UnitTestCaseAction 1473941585724 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941585725 StringCalculatorTest.java OK
+EditAction 1473941606024 StringCalculatorTest.java 538 2 6 0
+UnitTestCaseAction 1473941607876 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941607877 StringCalculatorTest.java OK
+EditAction 1473941668269 StringCalculatorTest.java 575 2 6 0
+UnitTestCaseAction 1473941669906 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941669907 StringCalculatorTest.java OK
+EditAction 1473941687058 StringCalculatorTest.java 575 2 6 0
+UnitTestCaseAction 1473941688719 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941688720 StringCalculatorTest.java OK
+EditAction 1473941736300 StringCalculatorTest.java 592 2 8 1
+UnitTestCaseAction 1473941738059 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473941738060 StringCalculatorTest.java FAIL
+EditAction 1473941755894 StringCalculatorTest.java 592 2 8 1
+UnitTestCaseAction 1473941757638 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941757639 StringCalculatorTest.java OK
+EditAction 1473941768610 StringCalculatorTest.java 594 2 8 1
+RefactoringAction 1473941795801 StringCalculator.java RENAME checkIfStringContainsNumbers(String)=>boolean checkIfStringContainsOnlyNumbers(String) METHOD
+RefactoringAction 1473941798313 StringCalculator.java RENAME checkIfStringContainsOnlyNumbers(String)=>boolean checkIfStringContainsOnlyNumbersA(String) METHOD
+RefactoringAction 1473941799828 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersA(String)=>boolean checkIfStringContainsOnlyNumbersAnd(String) METHOD
+RefactoringAction 1473941802844 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersAnd(String)=>boolean checkIfStringContainsOnlyNumbersAndAcceptable(String) METHOD
+RefactoringAction 1473941825860 StringCalculator.java RENAME checkIfStringContainsOnlyNumbersAndAcceptable(String)=>boolean checkIfStringContainsOnlyNumbersAndAcceptableCharacters(String) METHOD
+EditAction 1473941936702 StringCalculator.java 603 2 3 0
+UnitTestCaseAction 1473941938965 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941938966 StringCalculatorTest.java OK
+RefactoringAction 1473941953957 StringCalculatorTest.java ADD void testStringWithLetter()/2 METHOD
+RefactoringAction 1473941959975 StringCalculatorTest.java RENAME testStringWithLetter()/2=>void testStringWithComma() METHOD
+RefactoringAction 1473942006013 StringCalculatorTest.java ADD void testStringWithComma()/2 METHOD
+RefactoringAction 1473942013537 StringCalculatorTest.java RENAME testStringWithComma()/2=>void testStringWithNewLine() METHOD
+EditAction 1473942076018 StringCalculatorTest.java 1029 4 16 1
+UnitTestCaseAction 1473942077219 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942077220 StringCalculatorTest.java OK
+RefactoringAction 1473942231660 StringCalculator.java ADD boolean check FIELD
+RefactoringAction 1473942233682 StringCalculator.java RENAME check=>boolean checkIf FIELD
+RefactoringAction 1473942234698 StringCalculator.java RENAME checkIf=>boolean checkIffi FIELD
+RefactoringAction 1473942236213 StringCalculator.java RENAME checkIffi=>boolean checkIf FIELD
+RefactoringAction 1473942242227 StringCalculator.java RENAME checkIf=>boolean checkIfFirst FIELD
+RefactoringAction 1473942247243 StringCalculator.java RENAME checkIfFirst=>boolean checkIfFirstCharacterIs FIELD
+RefactoringAction 1473942251760 StringCalculator.java RENAME checkIfFirstCharacterIs=>boolean checkIfFirstCharacterIsA FIELD
+RefactoringAction 1473942254276 StringCalculator.java RENAME checkIfFirstCharacterIsA=>boolean checkIfFirstCharacterIsANumber FIELD
+RefactoringAction 1473942258292 StringCalculator.java RENAME checkIfFirstCharacterIsANumber=>boolean checkIfFirstCharacterIsANumber() METHOD
+RefactoringAction 1473942259308 StringCalculator.java RENAME checkIfFirstCharacterIsANumber()=>boolean checkIfFirstCharacterIsANumber(String) METHOD
+EditAction 1473942570546 StringCalculator.java 808 3 6 0
+UnitTestCaseAction 1473942572176 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942572177 StringCalculatorTest.java OK
+EditAction 1473942666433 StringCalculator.java 843 3 6 0
+UnitTestCaseAction 1473942668142 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942668143 StringCalculatorTest.java OK
+EditAction 1473942685450 StringCalculator.java 814 3 6 0
+UnitTestCaseAction 1473942778773 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942778774 StringCalculatorTest.java OK
+EditAction 1473942861069 StringCalculator.java 812 3 6 0
+EditAction 1473942863079 StringCalculatorTest.java 1117 4 18 3
+UnitTestCaseAction 1473942864553 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473942864554 StringCalculatorTest.java FAIL
+EditAction 1473942881553 StringCalculatorTest.java 1116 4 18 3
+UnitTestCaseAction 1473942883603 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942883604 StringCalculatorTest.java OK
+EditAction 1473942910776 StringCalculatorTest.java 1117 4 18 3
+UnitTestCaseAction 1473942912382 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473942912383 StringCalculatorTest.java FAIL
+EditAction 1473942926151 StringCalculatorTest.java 1116 4 18 3
+UnitTestCaseAction 1473942927716 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942927717 StringCalculatorTest.java OK
+RefactoringAction 1473943001852 StringCalculator.java RENAME checkIfFirstCharacterIsANumber(String)=>boolean checkIfCharacterIsANumber(String) METHOD
+RefactoringAction 1473943010368 StringCalculator.java RENAME checkIfCharacterIsANumber(String)=>boolean checkIfCharacterIsANumber(char) METHOD
+EditAction 1473943087614 StringCalculator.java 777 3 5 0
+UnitTestCaseAction 1473943089195 StringCalculatorTest.java OK
+UnitTestSessionAction 1473943089196 StringCalculatorTest.java OK
+RefactoringAction 1473943122074 StringCalculator.java ADD int FIELD
+EditAction 1473943299825 StringCalculator.java 813 3 5 0
+RefactoringAction 1473943316565 StringCalculatorTest.java ADD void testStringWithNewLine()/2 METHOD
+RefactoringAction 1473943323083 StringCalculatorTest.java RENAME testStringWithNewLine()/2=>void testStringWithNE() METHOD
+RefactoringAction 1473943325598 StringCalculatorTest.java RENAME testStringWithNE()=>void testStringWithNegative() METHOD
+RefactoringAction 1473943328117 StringCalculatorTest.java RENAME testStringWithNegative()=>void testStringWithNegativeNumber() METHOD
+EditAction 1473943352228 StringCalculatorTest.java 1388 5 23 4
+UnitTestCaseAction 1473943356498 StringCalculatorTest.java OK
+UnitTestSessionAction 1473943356499 StringCalculatorTest.java OK
+RefactoringAction 1473944052329 StringCalculator.java RENAME numbers=>List<Integer> list FIELD
+RefactoringAction 1473944059356 StringCalculator.java REMOVE list FIELD
+RefactoringAction 1473944061868 StringCalculator.java ADD List<Integer> numbers FIELD
+RefactoringAction 1473944110062 StringCalculator.java ADD import java.util.List IMPORT
+RefactoringAction 1473944114330 StringCalculator.java ADD import java.util.ArrayList IMPORT
+UnitTestCaseAction 1473944194754 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944194755 StringCalculatorTest.java OK
+EditAction 1473944211416 StringCalculator.java 1059 3 5 0
+EditAction 1473944345990 StringCalculator.java 1206 3 5 0
+UnitTestCaseAction 1473944347692 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944347693 StringCalculatorTest.java OK
+RefactoringAction 1473944367791 StringCalculatorTest.java ADD void testStringWithLetter()/2 METHOD
+RefactoringAction 1473944376807 StringCalculatorTest.java RENAME testStringWithLetter()/2=>void testStringWithNumber()/2 METHOD
+RefactoringAction 1473944385322 StringCalculatorTest.java RENAME testStringWithNumber()/2=>void testStringWithWrongFormat() METHOD
+RefactoringAction 1473944390337 StringCalculatorTest.java RENAME testStringWithWrongFormat()=>void testStringWith() METHOD
+RefactoringAction 1473944399852 StringCalculatorTest.java RENAME testStringWith()=>void testStringWithCommaNewLineCombination() METHOD
+EditAction 1473944433498 StringCalculatorTest.java 1719 6 28 5
+UnitTestCaseAction 1473944435254 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944435255 StringCalculatorTest.java OK
+EditAction 1473944494746 StringCalculatorTest.java 1721 6 28 5
+UnitTestCaseAction 1473944496117 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944496118 StringCalculatorTest.java OK
+EditAction 1473944749399 StringCalculatorTest.java 1737 6 28 5
+UnitTestCaseAction 1473944752082 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944752083 StringCalculatorTest.java OK
+EditAction 1473944780101 StringCalculatorTest.java 1765 6 28 5
+UnitTestCaseAction 1473944781644 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944781645 StringCalculatorTest.java OK
+EditAction 1473944806161 StringCalculatorTest.java 1766 6 28 5
+UnitTestCaseAction 1473944807804 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473944807805 StringCalculatorTest.java FAIL
+EditAction 1473944827891 StringCalculatorTest.java 1765 6 28 5
+UnitTestCaseAction 1473944829573 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944829573 StringCalculatorTest.java OK
+EditAction 1473945054334 StringCalculator.java 1219 3 5 0
+UnitTestCaseAction 1473945055977 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945055978 StringCalculatorTest.java OK
+EditAction 1473945079995 StringCalculatorTest.java 1719 6 28 5
+UnitTestCaseAction 1473945081577 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945081578 StringCalculatorTest.java OK
+EditAction 1473945133827 StringCalculatorTest.java 1718 6 28 5
+UnitTestCaseAction 1473945136426 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945136426 StringCalculatorTest.java OK
+EditAction 1473945143621 StringCalculatorTest.java 1717 6 28 5
+UnitTestCaseAction 1473945145166 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945145167 StringCalculatorTest.java OK
+EditAction 1473945595250 StringCalculator.java 1244 3 5 0
+UnitTestCaseAction 1473945597635 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945597636 StringCalculatorTest.java OK
+EditAction 1473945623539 StringCalculatorTest.java 1719 6 28 5
+UnitTestCaseAction 1473945625184 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945625185 StringCalculatorTest.java OK
+EditAction 1473945652382 StringCalculatorTest.java 1721 6 28 5
+UnitTestCaseAction 1473945653998 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945653999 StringCalculatorTest.java OK
+EditAction 1473945769982 StringCalculator.java 1261 3 5 0
+UnitTestCaseAction 1473945771601 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473945771602 StringCalculatorTest.java FAIL
+EditAction 1473945791967 StringCalculatorTest.java 1719 6 28 5
+UnitTestCaseAction 1473945793647 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473945793648 StringCalculatorTest.java FAIL
+EditAction 1473945806320 StringCalculatorTest.java 1717 6 28 5
+UnitTestCaseAction 1473945807992 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473945807992 StringCalculatorTest.java FAIL
+EditAction 1473945815844 StringCalculatorTest.java 1718 6 28 5
+UnitTestCaseAction 1473945817503 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473945817504 StringCalculatorTest.java FAIL
+EditAction 1473945870930 StringCalculator.java 1264 3 5 0
+UnitTestCaseAction 1473945872534 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945872535 StringCalculatorTest.java OK
+EditAction 1473945889468 StringCalculatorTest.java 1721 6 28 5
+UnitTestCaseAction 1473945891123 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945891124 StringCalculatorTest.java OK
+RefactoringAction 1473945901578 StringCalculatorTest.java ADD void testStringWithCommaNewLineCombination()/2 METHOD
+RefactoringAction 1473945911619 StringCalculatorTest.java RENAME testStringWithCommaNewLineCombination()/2=>void testStringWithNewLineCombination() METHOD
+RefactoringAction 1473945916640 StringCalculatorTest.java RENAME testStringWithNewLineCombination()=>void testStringWithNumberNewLineCombination() METHOD
+RefactoringAction 1473945923655 StringCalculatorTest.java RENAME testStringWithNumberNewLineCombination()=>void testStringWithNumberNewLineNumber() METHOD
+EditAction 1473945926354 StringCalculatorTest.java 2047 7 33 6
+UnitTestCaseAction 1473945928135 StringCalculatorTest.java OK
+UnitTestSessionAction 1473945928136 StringCalculatorTest.testStringWithNumberNewLineNumber OK
+EditAction 1473946234928 StringCalculator.java 1391 3 5 0
+UnitTestCaseAction 1473946236573 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946236574 StringCalculatorTest.testStringWithNumberNewLineNumber OK
+UnitTestCaseAction 1473946267248 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946267249 StringCalculatorTest.java OK
+EditAction 1473946356191 StringCalculator.java 1403 3 5 0
+UnitTestCaseAction 1473946357983 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946357984 StringCalculatorTest.java FAIL
+EditAction 1473946371397 StringCalculatorTest.java 2048 7 33 6
+UnitTestCaseAction 1473946373134 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946373135 StringCalculatorTest.java OK
+RefactoringAction 1473946385264 StringCalculatorTest.java RENAME testStringWithNumberNewLineNumber()=>void testStringWithNumberCommaNewLineNumber() METHOD
+EditAction 1473946394217 StringCalculatorTest.java 2054 7 33 6
+UnitTestCaseAction 1473946395832 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946395833 StringCalculatorTest.java FAIL
+EditAction 1473946404971 StringCalculatorTest.java 2053 7 33 6
+UnitTestCaseAction 1473946406659 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946406660 StringCalculatorTest.java OK
+EditAction 1473946591335 StringCalculator.java 1580 3 5 0
+UnitTestCaseAction 1473946593011 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946593012 StringCalculatorTest.java OK
+RefactoringAction 1473946612854 StringCalculatorTest.java ADD void testStringWithNumberCommaNewLineNumber()/2 METHOD
+RefactoringAction 1473946620881 StringCalculatorTest.java RENAME testStringWithNumberCommaNewLineNumber()/2=>void testStringWithNumberNewLNewLineNumber() METHOD
+RefactoringAction 1473946622420 StringCalculatorTest.java RENAME testStringWithNumberNewLNewLineNumber()=>void testStringWithNumberNewLineNewLineNumber() METHOD
+EditAction 1473946638134 StringCalculatorTest.java 2390 8 38 7
+UnitTestCaseAction 1473946639748 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946639749 StringCalculatorTest.java FAIL
+EditAction 1473946664763 StringCalculatorTest.java 2387 8 38 7
+EditAction 1473946695531 StringCalculator.java 1580 3 5 0
+UnitTestCaseAction 1473946697155 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946697156 StringCalculatorTest.java FAIL
+EditAction 1473946720432 StringCalculator.java 1580 3 5 0
+UnitTestCaseAction 1473946722099 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946722100 StringCalculatorTest.java FAIL
+EditAction 1473946753404 StringCalculator.java 1568 3 5 0
+UnitTestCaseAction 1473946755068 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946755069 StringCalculatorTest.java FAIL
+EditAction 1473946772246 StringCalculatorTest.java 2385 8 38 7
+UnitTestCaseAction 1473946773900 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946773901 StringCalculatorTest.java FAIL
+EditAction 1473946792139 StringCalculatorTest.java 2383 8 38 7
+UnitTestCaseAction 1473946793771 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946793772 StringCalculatorTest.java FAIL
+EditAction 1473946802757 StringCalculatorTest.java 2384 8 38 7
+UnitTestCaseAction 1473946804366 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946804368 StringCalculatorTest.java FAIL
+EditAction 1473946818310 StringCalculatorTest.java 2386 8 38 7
+UnitTestCaseAction 1473946820073 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946820074 StringCalculatorTest.java FAIL
+EditAction 1473946839761 StringCalculatorTest.java 2389 8 38 7
+UnitTestCaseAction 1473946841370 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946841371 StringCalculatorTest.java FAIL
+EditAction 1473946896958 StringCalculator.java 1566 3 5 0
+UnitTestCaseAction 1473946898647 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946898648 StringCalculatorTest.java FAIL
+EditAction 1473946929025 StringCalculator.java 1579 3 5 0
+UnitTestCaseAction 1473946930800 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946930801 StringCalculatorTest.java FAIL
+EditAction 1473946971974 StringCalculatorTest.java 2387 8 38 7
+UnitTestCaseAction 1473946973615 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946973616 StringCalculatorTest.java FAIL
+RefactoringAction 1473947026134 StringCalculatorTest.java RENAME testStringWithNumberCommaNewLineNumber()=>void testStringWithNumberCommaNumber() METHOD
+EditAction 1473947035469 StringCalculatorTest.java 2377 8 38 7
+UnitTestCaseAction 1473947037139 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947037140 StringCalculatorTest.java FAIL
+EditAction 1473947094447 StringCalculatorTest.java 2291 8 36 6
+UnitTestCaseAction 1473947096081 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947096082 StringCalculatorTest.java FAIL
+EditAction 1473947292276 StringCalculator.java 1566 3 5 0
+UnitTestCaseAction 1473947293929 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947293930 StringCalculatorTest.java FAIL
+RefactoringAction 1473947438330 StringCalculatorTest.java ADD void testStringWithNumberNewLineNewLineNumber()/2 METHOD
+RefactoringAction 1473947451345 StringCalculatorTest.java RENAME testStringWithNumberNewLineNewLineNumber()/2=>void testStringWithNumberCommaNumber()/2 METHOD
+RefactoringAction 1473947452862 StringCalculatorTest.java RENAME testStringWithNumberCommaNumber()/2=>void testStringWithNumberCommaCommaNumber() METHOD
+EditAction 1473947460773 StringCalculatorTest.java 2617 9 41 7
+UnitTestCaseAction 1473947462470 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947462470 StringCalculatorTest.java FAIL
+EditAction 1473947478706 StringCalculatorTest.java 2617 9 41 7
+UnitTestCaseAction 1473947480915 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947480916 StringCalculatorTest.java FAIL
+EditAction 1473947543720 StringCalculator.java 1570 3 4 0
+CompilationAction 1473947545016 StringCalculator.java
+CompilationAction 1473947545017 StringCalculator.java
+CompilationAction 1473947558311 StringCalculator.java
+UnitTestCaseAction 1473947558656 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947558657 StringCalculatorTest.java OK
+EditAction 1473947579518 StringCalculator.java 1296 3 5 0
+UnitTestCaseAction 1473947582114 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947582115 StringCalculatorTest.java OK
+EditAction 1473947592827 StringCalculatorTest.java 2619 9 41 7
+UnitTestCaseAction 1473947594415 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947594416 StringCalculatorTest.java OK
+EditAction 1473947655486 StringCalculatorTest.java 2620 9 41 7
+UnitTestCaseAction 1473947657129 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947657130 StringCalculatorTest.java OK
+RefactoringAction 1473947673521 StringCalculatorTest.java ADD void testStringWithNumberCommaNumber()/2 METHOD
+RefactoringAction 1473947679035 StringCalculatorTest.java RENAME testStringWithNumberCommaNumber()/2=>void testStringWithNumberNewlineNumber() METHOD
+EditAction 1473947688560 StringCalculatorTest.java 2861 10 44 7
+UnitTestCaseAction 1473947690152 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947690153 StringCalculatorTest.java OK
+EditAction 1473947810355 StringCalculator.java 1363 3 5 0
+UnitTestCaseAction 1473947811715 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947811716 StringCalculatorTest.java FAIL
+EditAction 1473947863048 StringCalculatorTest.java 2862 10 44 7
+UnitTestCaseAction 1473947864426 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947864427 StringCalculatorTest.java OK
+EditAction 1473947871432 StringCalculatorTest.java 2861 10 44 7
+UnitTestCaseAction 1473947873735 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947873736 StringCalculatorTest.java OK
+UnitTestCaseAction 1473948105928 StringCalculatorTest.java OK
+UnitTestSessionAction 1473948105929 StringCalculatorTest.java OK
+EditAction 1473948120078 StringCalculator.java 1402 3 5 0
+UnitTestCaseAction 1473948121608 StringCalculatorTest.java OK
+UnitTestSessionAction 1473948121609 StringCalculatorTest.java OK
