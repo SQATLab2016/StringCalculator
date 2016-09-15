@@ -14,6 +14,10 @@ public class StringCalculator {
 		// If no commas, i.e. only one number
 		if(commaIndex == -1)
 			return Integer.parseInt(str);
+		// Two numbers.
+		else{
+			
+		}
 		// not yet implemented
 	}
 }
