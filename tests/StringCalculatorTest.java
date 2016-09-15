@@ -10,7 +10,7 @@ public class StringCalculatorTest {
 		
 		String test="";
 		
-		assertEquals(0, calc.add(test))
+		assertEquals(0, calc.add(test));
 	}
 
 }
