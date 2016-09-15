@@ -37,3 +37,5 @@ CompilationAction 1473946772936 StringCalculator.java
 EditAction 1473946792433 StringCalculator.java 284 1 0 0
 CompilationAction 1473946792672 StringCalculator.java
 EditAction 1473946827980 StringCalculator.java 325 1 4 0
+CompilationAction 1473946828225 StringCalculator.java
+EditAction 1473946851521 StringCalculator.java 332 1 4 0
