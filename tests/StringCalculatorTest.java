@@ -109,7 +109,7 @@ public class StringCalculatorTest {
 			SC.add(s);
 		}
 		catch (Exception e) {
-			System.out.println(e.toString());
+			//System.out.println(e.toString());
 			thrown = true;
 		}
 		assertEquals("2x Newline combination", true, thrown);

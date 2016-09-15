@@ -282,3 +282,6 @@ CompilationAction 1473947558311 StringCalculator.java
 UnitTestCaseAction 1473947558656 StringCalculatorTest.java OK
 UnitTestSessionAction 1473947558657 StringCalculatorTest.java OK
 EditAction 1473947579518 StringCalculator.java 1296 3 5 0
+UnitTestCaseAction 1473947582114 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947582115 StringCalculatorTest.java OK
+EditAction 1473947592827 StringCalculatorTest.java 2619 9 41 7
