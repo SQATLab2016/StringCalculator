@@ -264,3 +264,9 @@ EditAction 1473947094447 StringCalculatorTest.java 2291 8 36 6
 UnitTestCaseAction 1473947096081 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1473947096082 StringCalculatorTest.java FAIL
 EditAction 1473947292276 StringCalculator.java 1566 3 5 0
+UnitTestCaseAction 1473947293929 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947293930 StringCalculatorTest.java FAIL
+RefactoringAction 1473947438330 StringCalculatorTest.java ADD void testStringWithNumberNewLineNewLineNumber()/2 METHOD
+RefactoringAction 1473947451345 StringCalculatorTest.java RENAME testStringWithNumberNewLineNewLineNumber()/2=>void testStringWithNumberCommaNumber()/2 METHOD
+RefactoringAction 1473947452862 StringCalculatorTest.java RENAME testStringWithNumberCommaNumber()/2=>void testStringWithNumberCommaCommaNumber() METHOD
+EditAction 1473947460773 StringCalculatorTest.java 2617 9 41 7

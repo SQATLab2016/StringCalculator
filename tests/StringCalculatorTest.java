@@ -114,5 +114,20 @@ public class StringCalculatorTest {
 		}
 		assertEquals("2x Newline combination", true, thrown);
 	}
+	
+	@Test
+	public void testStringWithNumberCommaCommaNumber() {
+		String s = "1,,2";
+		StringCalculator SC = new StringCalculator();
+		boolean thrown = false;
+		try {
+			SC.add(s);
+		}
+		catch (Exception e) {
+			System.out.println(e.toString());
+			thrown = true;
+		}
+		assertEquals("2x Newline combination", true, thrown);
+	}
 
 }
