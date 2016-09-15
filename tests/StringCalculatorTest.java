@@ -30,5 +30,31 @@ public class StringCalculatorTest {
 		}
 		assertEquals("exception thrown", true, thrown);
 	}
+	
+	@Test
+	public void testStringWithComma() {
+		String s = ",";
+		StringCalculator SC = new StringCalculator();
+		boolean thrown = false;
+		try {
+			assertEquals(0, SC.add(s));
+		}
+		catch (Exception e) {
+			
+		}
+	}
+	
+	@Test
+	public void testStringWithNewLine() {
+		String s = "\n";
+		StringCalculator SC = new StringCalculator();
+		boolean thrown = false;
+		try {
+			assertEquals(0, SC.add(s));
+		}
+		catch (Exception e) {
+			
+		}
+	}
 
 }
