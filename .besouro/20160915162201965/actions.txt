@@ -93,3 +93,10 @@ RefactoringAction 1473947339831 StringCalculator.java RENAME addMult=>int addMul
 RefactoringAction 1473947341345 StringCalculator.java RENAME addMultiple=>int addMultiple() METHOD
 RefactoringAction 1473947343864 StringCalculator.java RENAME addMultiple()=>int addMultiple(String) METHOD
 EditAction 1473947358924 StringCalculator.java 837 3 7 0
+CompilationAction 1473947359182 StringCalculator.java
+RefactoringAction 1473947374435 StringCalculator.java RENAME addMultiple(String)=>int addUnknown(String) METHOD
+CompilationAction 1473947374702 StringCalculator.java
+CompilationAction 1473947374851 StringCalculator.java
+CompilationAction 1473947395238 StringCalculator.java
+CompilationAction 1473947395395 StringCalculator.java
+EditAction 1473947405792 StringCalculator.java 907 3 8 0

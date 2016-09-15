@@ -24,8 +24,13 @@ public class StringCalculator {
 		// not yet implemented
 	}
 	
-	public int addMultiple(String str){
-		
+	public int addUnknown(String str){
+		if(countCommas(str)<2)
+			return add(str);
+		else{
+			
+			return 0;
+		}
 	}
 	
 	public int countCommas(String str){
