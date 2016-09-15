@@ -196,3 +196,8 @@ EditAction 1473945926354 StringCalculatorTest.java 2047 7 33 6
 UnitTestCaseAction 1473945928135 StringCalculatorTest.java OK
 UnitTestSessionAction 1473945928136 StringCalculatorTest.testStringWithNumberNewLineNumber OK
 EditAction 1473946234928 StringCalculator.java 1391 3 5 0
+UnitTestCaseAction 1473946236573 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946236574 StringCalculatorTest.testStringWithNumberNewLineNumber OK
+UnitTestCaseAction 1473946267248 StringCalculatorTest.java OK
+UnitTestSessionAction 1473946267249 StringCalculatorTest.java OK
+EditAction 1473946356191 StringCalculator.java 1403 3 5 0
