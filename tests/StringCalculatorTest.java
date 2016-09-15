@@ -82,7 +82,7 @@ public class StringCalculatorTest {
 			SC.add(s);
 		}
 		catch (Exception e) {
-			System.out.println(e.toString());
+			//System.out.println(e.toString());
 			thrown = true;
 		}
 		assertEquals("Comma Newline combination", true, thrown);
