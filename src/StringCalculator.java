@@ -5,9 +5,9 @@ public class StringCalculator {
 	private List<Integer> numbers = new ArrayList<>();
 	public int add(String numbersStr) throws StringCalculatorException{
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
+			int counter = 0;
+			int skip = 0;
 			for(char c: numbersStr.toCharArray()) {
-				int counter = 0;
-				int skip = 0;
 				if(counter%2 == 0) {
 					if(c =='\n') {
 						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
