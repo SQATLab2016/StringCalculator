@@ -70,3 +70,5 @@ RefactoringAction 1473947183548 StringCalculator.java RENAME countCommasOr(Strin
 EditAction 1473947183884 StringCalculator.java 667 2 4 0
 CompilationAction 1473947184127 StringCalculator.java
 EditAction 1473947203787 StringCalculator.java 716 2 5 0
+CompilationAction 1473947204030 StringCalculator.java
+EditAction 1473947213355 StringCalculator.java 735 2 6 0
