@@ -1,9 +1,10 @@
 
 public class StringCalculator {
 	public int add(String numbersStr) throws StringCalculatorException{
-		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr)) {
+		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfFirstCharacterIsANumber(numbersStr)) {
 			return 0;
 		}
+	
 		else {
 			throw new StringCalculatorException("String contains more than just numbers");
 		}
@@ -20,5 +21,12 @@ public class StringCalculator {
 			}
 		}
 		return true;
+	}
+	
+	private boolean checkIfFirstCharacterIsANumber(String s) {
+		char[] c = s.toCharArray();
+		if(Character.isDigit(c[0]))
+			return true;
+		return false;
 	}
 }

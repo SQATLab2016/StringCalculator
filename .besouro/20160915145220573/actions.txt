@@ -67,3 +67,16 @@ RefactoringAction 1473941959975 StringCalculatorTest.java RENAME testStringWithL
 RefactoringAction 1473942006013 StringCalculatorTest.java ADD void testStringWithComma()/2 METHOD
 RefactoringAction 1473942013537 StringCalculatorTest.java RENAME testStringWithComma()/2=>void testStringWithNewLine() METHOD
 EditAction 1473942076018 StringCalculatorTest.java 1029 4 16 1
+UnitTestCaseAction 1473942077219 StringCalculatorTest.java OK
+UnitTestSessionAction 1473942077220 StringCalculatorTest.java OK
+RefactoringAction 1473942231660 StringCalculator.java ADD boolean check FIELD
+RefactoringAction 1473942233682 StringCalculator.java RENAME check=>boolean checkIf FIELD
+RefactoringAction 1473942234698 StringCalculator.java RENAME checkIf=>boolean checkIffi FIELD
+RefactoringAction 1473942236213 StringCalculator.java RENAME checkIffi=>boolean checkIf FIELD
+RefactoringAction 1473942242227 StringCalculator.java RENAME checkIf=>boolean checkIfFirst FIELD
+RefactoringAction 1473942247243 StringCalculator.java RENAME checkIfFirst=>boolean checkIfFirstCharacterIs FIELD
+RefactoringAction 1473942251760 StringCalculator.java RENAME checkIfFirstCharacterIs=>boolean checkIfFirstCharacterIsA FIELD
+RefactoringAction 1473942254276 StringCalculator.java RENAME checkIfFirstCharacterIsA=>boolean checkIfFirstCharacterIsANumber FIELD
+RefactoringAction 1473942258292 StringCalculator.java RENAME checkIfFirstCharacterIsANumber=>boolean checkIfFirstCharacterIsANumber() METHOD
+RefactoringAction 1473942259308 StringCalculator.java RENAME checkIfFirstCharacterIsANumber()=>boolean checkIfFirstCharacterIsANumber(String) METHOD
+EditAction 1473942570546 StringCalculator.java 808 3 6 0
