@@ -30,5 +30,6 @@ public class StringCalculator {
 			if(str.charAt(i) == ',')
 				counter++;
 		} 
+		return counter;
 	}
 }
