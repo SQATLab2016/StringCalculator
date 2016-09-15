@@ -115,7 +115,7 @@ public class StringCalculatorTest {
 			System.out.println(e.toString());
 			thrown = true;
 		}
-		assertEquals("Comma Newline combination", true, thrown);
+		assertEquals("2x Newline combination", true, thrown);
 	}
 
 }

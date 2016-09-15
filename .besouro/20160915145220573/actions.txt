@@ -220,3 +220,6 @@ RefactoringAction 1473946612854 StringCalculatorTest.java ADD void testStringWit
 RefactoringAction 1473946620881 StringCalculatorTest.java RENAME testStringWithNumberCommaNewLineNumber()/2=>void testStringWithNumberNewLNewLineNumber() METHOD
 RefactoringAction 1473946622420 StringCalculatorTest.java RENAME testStringWithNumberNewLNewLineNumber()=>void testStringWithNumberNewLineNewLineNumber() METHOD
 EditAction 1473946638134 StringCalculatorTest.java 2390 8 38 7
+UnitTestCaseAction 1473946639748 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946639749 StringCalculatorTest.java FAIL
+EditAction 1473946664763 StringCalculatorTest.java 2387 8 38 7
