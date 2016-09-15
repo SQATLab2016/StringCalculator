@@ -15,3 +15,4 @@ RefactoringAction 1473941005884 StringCalculatorException.java RENAME StringCalc
 RefactoringAction 1473941007396 StringCalculatorException.java RENAME StringCalculatorxception(String)=>StringCalculatorException(String) METHOD
 RefactoringAction 1473941033425 StringCalculatorException.java ADD long serialVersionUID FIELD
 EditAction 1473941035709 StringCalculatorException.java 181 1 1 0
+EditAction 1473941087650 StringCalculator.java 524 2 3 0
