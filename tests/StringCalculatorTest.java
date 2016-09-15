@@ -6,10 +6,10 @@ public class StringCalculatorTest {
 
 	@Test
 	public void testStringWithNumber() {
-		String s = "1";
+		String s = "99";
 		StringCalculator SC = new StringCalculator();
 		try {
-			assertEquals(0, SC.add(s));
+			assertEquals(9, SC.add(s));
 		}
 		catch (Exception e) {
 						
@@ -90,10 +90,10 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithNumberCommaNumber() {
-		String s = "1,2";
+		String s = "1,3";
 		StringCalculator SC = new StringCalculator();
 		try {
-			assertEquals(0, SC.add(s));
+			assertEquals(4, SC.add(s));
 		}
 		catch (Exception e) {
 			//System.out.println(e.toString());
@@ -105,7 +105,7 @@ public class StringCalculatorTest {
 		String s = "1\n2";
 		StringCalculator SC = new StringCalculator();
 		try {
-			assertEquals(0, SC.add(s));
+			assertEquals(3, SC.add(s));
 		}
 		catch (Exception e) {
 			//System.out.println(e.toString());
