@@ -58,3 +58,6 @@ EditAction 1473947063835 StringCalculatorTest.java 573 3 9 3
 CompilationAction 1473947064081 StringCalculatorTest.java
 RefactoringAction 1473947073260 StringCalculatorTest.java RENAME testAddWithOne()/2=>void testAddWithTw() METHOD
 EditAction 1473947073305 StringCalculatorTest.java 573 3 9 3
+UnitTestCaseAction 1473947075257 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473947075258 StringCalculatorTest.testAddWithTwo FAIL
+EditAction 1473947088511 StringCalculator.java 622 1 4 0
