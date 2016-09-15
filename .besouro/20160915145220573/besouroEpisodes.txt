@@ -44,3 +44,7 @@
 1473946236574 refactoring 2A 1 true
 1473946267249 regression 1 0 true
 1473946373135 refactoring 2A 16 true
+1473946406660 regression 2 21 true
+1473946406661 refactoring 1B 21 true
+1473946406662 refactoring 3 21 true
+1473946406663 refactoring 2B 21 true

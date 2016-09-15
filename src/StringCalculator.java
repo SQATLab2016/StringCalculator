@@ -7,12 +7,18 @@ public class StringCalculator {
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
 			for(char c: numbersStr.toCharArray()) {
 				int counter = 0;
+				int skip = 0;
 				if(counter%2 == 0) {
 					if(c =='\r' || c =='\n') {
 						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
+						skip++;
+						if(skip > 2) {
+							throw new StringCalculatorException("String contains too many 'break' characters in a row");
+						}
 					}
 					else if (checkIfCharacterIsANumber(c)) {
 						numbers.add(Character.getNumericValue(c));
+						skip = 0;
 					}
 					else {
 						throw new StringCalculatorException("String contains too many 'break' characters in a row");
