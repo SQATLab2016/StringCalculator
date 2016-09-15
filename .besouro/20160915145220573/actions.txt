@@ -123,3 +123,4 @@ RefactoringAction 1473944114330 StringCalculator.java ADD import java.util.Array
 UnitTestCaseAction 1473944194754 StringCalculatorTest.java OK
 UnitTestSessionAction 1473944194755 StringCalculatorTest.java OK
 EditAction 1473944211416 StringCalculator.java 1059 3 5 0
+EditAction 1473944345990 StringCalculator.java 1206 3 5 0

@@ -7,8 +7,11 @@ public class StringCalculator {
 		if(checkIfStringContainsOnlyNumbersAndAcceptableCharacters(numbersStr) && checkIfCharacterIsANumber(numbersStr.charAt(0))) {
 			for(char c: numbersStr.toCharArray()) {
 				int counter = 0;
-				if(counter%2 == 0) {
+				if(counter%2 == 0 && checkIfCharacterIsANumber(c)) {
 					numbers.add(Character.getNumericValue(c));
+				}
+				else {
+					throw new StringCalculatorException("String contains too many 'break' characters in a row");
 				}
 				counter++;
 			}
