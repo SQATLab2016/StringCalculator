@@ -12,5 +12,13 @@ public class StringCalculatorTest {
 		
 		assertEquals(0, calc.add(test));
 	}
-
+	
+	@Test
+	public void testAddWithOne() {
+		StringCalculator calc = new StringCalculator();
+		
+		String test="";
+		
+		assertEquals(0, calc.add(test));
+	}
 }

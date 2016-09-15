@@ -25,3 +25,6 @@ RefactoringAction 1473946550424 StringCalculatorTest.java RENAME testAddWith()=>
 EditAction 1473946588341 StringCalculatorTest.java 251 1 0 0
 CompilationAction 1473946588586 StringCalculatorTest.java
 EditAction 1473946591592 StringCalculatorTest.java 252 1 3 1
+RefactoringAction 1473946596080 StringCalculatorTest.java ADD void testAddWithEmpty()/2 METHOD
+RefactoringAction 1473946601104 StringCalculatorTest.java RENAME testAddWithEmpty()/2=>void testAddWithOne() METHOD
+EditAction 1473946605628 StringCalculatorTest.java 404 2 6 2
