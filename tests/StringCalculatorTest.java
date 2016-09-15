@@ -20,14 +20,15 @@ public class StringCalculatorTest {
 	public void testStringWithLetter() {
 		String s = "1";
 		StringCalculator SC = new StringCalculator();
+		boolean thrown = false;
 		try {
 			SC.add(s);
 		}
 		catch (Exception e) {
 			System.out.println(e.toString());
-			boolean thrown = true;
-			assertEquals("exception thrown", true, thrown);
+			thrown = true;
 		}
+		assertEquals("exception thrown", true, thrown);
 	}
 
 }
