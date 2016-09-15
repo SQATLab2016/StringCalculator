@@ -42,7 +42,7 @@ public class StringCalculatorTest {
 		catch (Exception e) {
 			thrown = true;
 		}
-		assertEquals("comma first", true, thrown);
+		assertEquals("comma first", false, thrown);
 	}
 	
 	@Test
