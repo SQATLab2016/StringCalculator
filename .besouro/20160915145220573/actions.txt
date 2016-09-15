@@ -254,3 +254,7 @@ EditAction 1473946929025 StringCalculator.java 1579 3 5 0
 UnitTestCaseAction 1473946930800 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1473946930801 StringCalculatorTest.java FAIL
 EditAction 1473946971974 StringCalculatorTest.java 2387 8 38 7
+UnitTestCaseAction 1473946973615 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1473946973616 StringCalculatorTest.java FAIL
+RefactoringAction 1473947026134 StringCalculatorTest.java RENAME testStringWithNumberCommaNewLineNumber()=>void testStringWithNumberCommaNumber() METHOD
+EditAction 1473947035469 StringCalculatorTest.java 2377 8 38 7
