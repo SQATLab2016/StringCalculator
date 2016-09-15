@@ -24,6 +24,7 @@ public class StringCalculatorTest {
 			SC.add(s);
 		}
 		catch (Exception e) {
+			System.out.println(e.toString());
 			boolean thrown = true;
 			assertEquals("exception thrown", true, thrown);
 		}
