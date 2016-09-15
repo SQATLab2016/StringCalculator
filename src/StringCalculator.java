@@ -4,6 +4,6 @@ public class StringCalculator {
 		// Returns the sum of the numbers given in numbersStr
 		int result = 0;
 		// not yet implemented
-		return 0;
+		return result;
 	}
 }
