@@ -55,3 +55,6 @@ CompilationAction 1473947021344 StringCalculator.java
 EditAction 1473947046444 StringCalculatorTest.java 411 2 6 2
 RefactoringAction 1473947051192 StringCalculatorTest.java ADD void testAddWithOne()/2 METHOD
 EditAction 1473947063835 StringCalculatorTest.java 573 3 9 3
+CompilationAction 1473947064081 StringCalculatorTest.java
+RefactoringAction 1473947073260 StringCalculatorTest.java RENAME testAddWithOne()/2=>void testAddWithTw() METHOD
+EditAction 1473947073305 StringCalculatorTest.java 573 3 9 3

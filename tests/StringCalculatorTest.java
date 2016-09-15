@@ -23,7 +23,7 @@ public class StringCalculatorTest {
 	}
 	
 	@Test
-	public void testAddWithOne() {
+	public void testAddWithTwo() {
 		StringCalculator calc = new StringCalculator();
 		
 		String test="213,500";
