@@ -124,3 +124,11 @@ UnitTestCaseAction 1473944194754 StringCalculatorTest.java OK
 UnitTestSessionAction 1473944194755 StringCalculatorTest.java OK
 EditAction 1473944211416 StringCalculator.java 1059 3 5 0
 EditAction 1473944345990 StringCalculator.java 1206 3 5 0
+UnitTestCaseAction 1473944347692 StringCalculatorTest.java OK
+UnitTestSessionAction 1473944347693 StringCalculatorTest.java OK
+RefactoringAction 1473944367791 StringCalculatorTest.java ADD void testStringWithLetter()/2 METHOD
+RefactoringAction 1473944376807 StringCalculatorTest.java RENAME testStringWithLetter()/2=>void testStringWithNumber()/2 METHOD
+RefactoringAction 1473944385322 StringCalculatorTest.java RENAME testStringWithNumber()/2=>void testStringWithWrongFormat() METHOD
+RefactoringAction 1473944390337 StringCalculatorTest.java RENAME testStringWithWrongFormat()=>void testStringWith() METHOD
+RefactoringAction 1473944399852 StringCalculatorTest.java RENAME testStringWith()=>void testStringWithCommaNewLineCombination() METHOD
+EditAction 1473944433498 StringCalculatorTest.java 1719 6 28 5
