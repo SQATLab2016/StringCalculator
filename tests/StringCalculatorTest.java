@@ -6,7 +6,7 @@ public class StringCalculatorTest {
 
 	@Test
 	public void testStringWithNumber() {
-		String s = "99";
+		String s = "9";
 		StringCalculator SC = new StringCalculator();
 		try {
 			assertEquals(9, SC.add(s));
