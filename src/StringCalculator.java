@@ -9,7 +9,7 @@ public class StringCalculator {
 			int skip = 0;
 			for(char c: numbersStr.toCharArray()) {
 				if(counter%2 == 0) {
-					if(c == '\r' || c =='\n') {
+					if(c =='\n') {
 						counter++; //windows specific solution, newline "\n" is treated as two characters, \r \n
 						skip++;
 						if(skip > 1) {
