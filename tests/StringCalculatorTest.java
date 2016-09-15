@@ -18,7 +18,7 @@ public class StringCalculatorTest {
 	
 	@Test
 	public void testStringWithLetter() {
-		String s = "1";
+		String s = "a";
 		StringCalculator SC = new StringCalculator();
 		boolean thrown = false;
 		try {
