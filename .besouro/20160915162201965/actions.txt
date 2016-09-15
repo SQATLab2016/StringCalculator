@@ -80,3 +80,5 @@ RefactoringAction 1473947275819 StringCalculatorTest.java ADD void testAddWithTw
 RefactoringAction 1473947280836 StringCalculatorTest.java RENAME testAddWithTwo()/2=>void testCountCommasWith() METHOD
 RefactoringAction 1473947283848 StringCalculatorTest.java RENAME testCountCommasWith()=>void testCountCommasWith1() METHOD
 EditAction 1473947295025 StringCalculatorTest.java 747 4 12 4
+RefactoringAction 1473947298909 StringCalculatorTest.java ADD void testCountCommasWith1()/2 METHOD
+EditAction 1473947301679 StringCalculatorTest.java 921 5 15 5
