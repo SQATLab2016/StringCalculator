@@ -7,7 +7,8 @@ public class StringCalculator {
 		int num1=0, num2=0;
 		int commaIndex = 0;
 		for (int i = 0; i < str.length(); i++) {
-			if
+			if(str.charAt(i) == 44)
+				commaIndex = i;
 		}
 		
 		// not yet implemented
