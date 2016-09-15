@@ -293,3 +293,6 @@ UnitTestSessionAction 1473947657130 StringCalculatorTest.java OK
 RefactoringAction 1473947673521 StringCalculatorTest.java ADD void testStringWithNumberCommaNumber()/2 METHOD
 RefactoringAction 1473947679035 StringCalculatorTest.java RENAME testStringWithNumberCommaNumber()/2=>void testStringWithNumberNewlineNumber() METHOD
 EditAction 1473947688560 StringCalculatorTest.java 2861 10 44 7
+UnitTestCaseAction 1473947690152 StringCalculatorTest.java OK
+UnitTestSessionAction 1473947690153 StringCalculatorTest.java OK
+EditAction 1473947810355 StringCalculator.java 1363 3 5 0

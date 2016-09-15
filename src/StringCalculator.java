@@ -19,8 +19,11 @@ public class StringCalculator {
 				}
 				counter++;
 			}
-			
-			return 0;
+			int result = 0;
+			for(int r: numbers) {
+				result += r;
+			}
+			return result;
 		}
 		else {
 			throw new StringCalculatorException("String contains more than just numbers");
