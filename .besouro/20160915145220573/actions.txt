@@ -30,3 +30,6 @@ RefactoringAction 1473941183138 StringCalculatorTest.java RENAME testStringWithN
 RefactoringAction 1473941427657 StringCalculatorTest.java ADD void testStringWithNumber()/2 METHOD
 RefactoringAction 1473941433175 StringCalculatorTest.java RENAME testStringWithNumber()/2=>void testStringWithLetter() METHOD
 EditAction 1473941500325 StringCalculatorTest.java 518 2 6 0
+UnitTestCaseAction 1473941502111 StringCalculatorTest.java OK
+UnitTestSessionAction 1473941502112 StringCalculatorTest.java OK
+EditAction 1473941543699 StringCalculatorTest.java 538 2 6 0

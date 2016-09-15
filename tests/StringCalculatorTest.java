@@ -25,7 +25,7 @@ public class StringCalculatorTest {
 		}
 		catch (Exception e) {
 			boolean thrown = true;
-			assertEquals(true, thrown);
+			assertEquals("exception thrown", true, thrown);
 		}
 	}
 
