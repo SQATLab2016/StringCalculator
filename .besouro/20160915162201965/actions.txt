@@ -76,3 +76,7 @@ CompilationAction 1473947213610 StringCalculator.java
 EditAction 1473947234468 StringCalculator.java 774 2 6 0
 CompilationAction 1473947234699 StringCalculator.java
 EditAction 1473947243920 StringCalculator.java 792 2 7 0
+RefactoringAction 1473947275819 StringCalculatorTest.java ADD void testAddWithTwo()/2 METHOD
+RefactoringAction 1473947280836 StringCalculatorTest.java RENAME testAddWithTwo()/2=>void testCountCommasWith() METHOD
+RefactoringAction 1473947283848 StringCalculatorTest.java RENAME testCountCommasWith()=>void testCountCommasWith1() METHOD
+EditAction 1473947295025 StringCalculatorTest.java 747 4 12 4

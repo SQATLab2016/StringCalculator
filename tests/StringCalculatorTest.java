@@ -30,4 +30,13 @@ public class StringCalculatorTest {
 		
 		assertEquals(713, calc.add(test));
 	}
+	
+	@Test
+	public void testCountCommasWith1() {
+		StringCalculator calc = new StringCalculator();
+		
+		String test="213,500";
+		
+		assertEquals(2, calc.countCommas(test));
+	}
 }
