@@ -62,5 +62,12 @@ public class StringCalculatorTest {
 	public void StringCalculatorTest_negative() throws StringCalculatorException  {
 		int result = calc.add("-1,0");
 	}
+	
+	@Test
+	public void StringCalculatorTest_1_1_1_1_1_5() throws StringCalculatorException  {
+		int result = calc.add("1,1,1,1,1");
+		assertTrue("1+1+1+1+1 returns a wrong answer " + result, result == 5);
+
+	}
 
 }
