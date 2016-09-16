@@ -31,25 +31,21 @@ public class StringCalculator {
 				throw (new StringCalculatorException());
 			}
 			
-			if (validateNumber(tempInt)) {
-				intNumbers[i] = tempInt;
-			}
-			else {
-				throw (new StringCalculatorException());
-			}
+			validateNumber(tempInt);
+			intNumbers[i] = tempInt;
 			
 		}
 		
 		return intNumbers;
 	}
 	
-	private boolean validateNumber(int number) {
+	private void validateNumber(int number) throws StringCalculatorException {
 		for (int i: validNumbers) {
 			if (i == number) {
-				return true;
+				return;
 			}
 		}
-		return false;
+		throw (new StringCalculatorException());
 	}
 	
 	private int calculateNumbers(int[] numbers) {
