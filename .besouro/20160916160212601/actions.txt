@@ -1,0 +1,3 @@
+FileOpenedAction 1474030932817 StringCalculator.java 2409 4 20 0
+UnitTestCaseAction 1474030944931 StringCalculatorTest.java OK
+UnitTestSessionAction 1474030944933 StringCalculatorTest.java OK
