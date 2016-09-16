@@ -67,7 +67,12 @@ public class StringCalculatorTest {
 	public void StringCalculatorTest_1_1_1_1_1_5() throws StringCalculatorException  {
 		int result = calc.add("1,1,1,1,1");
 		assertTrue("1+1+1+1+1 returns a wrong answer " + result, result == 5);
-
+	}
+	
+	@Test
+	public void StringCalculatorTest_1_2_3_new_line() throws StringCalculatorException  {
+		int result = calc.add("1\n2");
+		assertTrue("1 + 2 with new line returns a wrong answer " + result, result == 3);
 	}
 
 }
