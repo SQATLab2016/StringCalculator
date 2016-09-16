@@ -1,14 +1,18 @@
+import java.util.Arrays;
 
 public class StringCalculator {
 	
+	static final int[] validNumbers = {0, 1, 2};
+	
 	// Returns the sum of the numbers given in numbersStr
 	public int add(String numbersStr) throws StringCalculatorException {
+		int [] numbers;
 		
 		if (numbersStr.length() == 0) {
 			return 0;
 		}
 		
-		int[] numbers = StringArrayToInt(numbersStr.split(","));
+		numbers = StringArrayToInt(numbersStr.split(","));
 		
 		return 1;
 	}
@@ -26,7 +30,7 @@ public class StringCalculator {
 				throw (new StringCalculatorException());
 			}
 			
-			if (validateNumber(tempInt)) {
+			if (!validateNumber(tempInt)) {
 				intNumbers[i] = tempInt;
 			}
 			else {
@@ -39,8 +43,10 @@ public class StringCalculator {
 	}
 	
 	private boolean validateNumber(int number) {
-		// TODO add logic
-		return true;
+		if (Arrays.asList(validNumbers).contains(number)) {
+			return true;
+		}
+		return false;
 	}
 
 }
