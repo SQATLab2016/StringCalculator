@@ -74,5 +74,9 @@ public class StringCalculatorTest {
 		int result = calc.add("1\n2");
 		assertTrue("1 + 2 with new line returns a wrong answer " + result, result == 3);
 	}
+	@Test(expected=StringCalculatorException.class)
+	public void StringCalculatorTest_invalid_input_new_line() throws StringCalculatorException  {
+		int result = calc.add("1,\n");
+	}
 
 }
