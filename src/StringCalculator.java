@@ -30,7 +30,7 @@ public class StringCalculator {
 				throw (new StringCalculatorException());
 			}
 			
-			if (!validateNumber(tempInt)) {
+			if (validateNumber(tempInt)) {
 				intNumbers[i] = tempInt;
 			}
 			else {
@@ -43,8 +43,11 @@ public class StringCalculator {
 	}
 	
 	private boolean validateNumber(int number) {
-		if (Arrays.asList(validNumbers).contains(number)) {
-			return true;
+		for (int i: validNumbers) {
+			if (i == number) {
+				System.out.println("number found");
+				return true;
+			}
 		}
 		return false;
 	}
