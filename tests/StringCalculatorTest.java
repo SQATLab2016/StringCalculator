@@ -18,10 +18,9 @@ public class StringCalculatorTest {
 		assertTrue("Non Empty string returns wrong value", 0 != result);
 	}
 	
-	@Test
+	@Test(expected=StringCalculatorException.class)
 	public void StringCalculatorTest_invalid_string() throws StringCalculatorException {
 		int result = calc.add("asdasd");
-		assertTrue("Non Empty string returns wrong value", 0 != result);
 	}
 
 }

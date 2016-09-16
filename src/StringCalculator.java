@@ -14,16 +14,25 @@ public class StringCalculator {
 	}
 	
 	private int[] StringArrayToInt(String[] strNumbers) throws StringCalculatorException {
-		int[] intNumbers = {};
+		int[] intNumbers = new int[3];
 		int tempInt;
 		for (int i = 0; i < strNumbers.length; i++) {
-			tempInt = Integer.parseInt(strNumbers[i]);
+			
+			// Try converting part of the string to a integer
+			try {
+				tempInt = Integer.parseInt(strNumbers[i]);
+			}
+			catch(Exception e) {
+				throw (new StringCalculatorException());
+			}
+			
 			if (validateNumber(tempInt)) {
 				intNumbers[i] = tempInt;
 			}
 			else {
 				throw (new StringCalculatorException());
 			}
+			
 		}
 		
 		return intNumbers;
