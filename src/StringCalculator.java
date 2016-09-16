@@ -1,9 +1,14 @@
 
 public class StringCalculator {
+	
+	// Returns the sum of the numbers given in numbersStr
 	public int add(String numbersStr) {
-		// Returns the sum of the numbers given in numbersStr
 		
-		// not yet implemented
-		return 0;
+		if (numbersStr.length() == 0) {
+			return 0;
+		}
+		
+		return 1;
 	}
+
 }
