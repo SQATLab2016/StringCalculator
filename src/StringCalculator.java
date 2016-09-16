@@ -45,7 +45,6 @@ public class StringCalculator {
 	private boolean validateNumber(int number) {
 		for (int i: validNumbers) {
 			if (i == number) {
-				System.out.println("number found");
 				return true;
 			}
 		}
