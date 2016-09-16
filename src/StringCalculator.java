@@ -7,14 +7,16 @@ public class StringCalculator {
 	// Returns the sum of the numbers given in numbersStr
 	public int add(String numbersStr) throws StringCalculatorException {
 		int [] numbers;
+		int result;
 		
 		if (numbersStr.length() == 0) {
 			return 0;
 		}
 		
 		numbers = StringArrayToInt(numbersStr.split(","));
+		result = calculateNumbers(numbers);
 		
-		return 1;
+		return result;
 	}
 	
 	private int[] StringArrayToInt(String[] strNumbers) throws StringCalculatorException {
@@ -49,6 +51,14 @@ public class StringCalculator {
 			}
 		}
 		return false;
+	}
+	
+	private int calculateNumbers(int[] numbers) {
+		int sum = 0;
+		for (int x: numbers) {
+			sum += x;
+		}
+		return sum;
 	}
 
 }
