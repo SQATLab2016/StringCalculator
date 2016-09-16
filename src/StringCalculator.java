@@ -12,7 +12,7 @@ public class StringCalculator {
 			return 0;
 		}
 		
-		numbers = StringArrayToInt(numbersStr.split(","));
+		numbers = StringArrayToInt(numbersStr.split(",|\\n"));
 		result = calculateNumbers(numbers);
 		
 		return result;
