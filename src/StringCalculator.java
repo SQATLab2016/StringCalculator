@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class StringCalculator {
 	
@@ -20,7 +19,7 @@ public class StringCalculator {
 	}
 	
 	private int[] StringArrayToInt(String[] strNumbers) throws StringCalculatorException {
-		int[] intNumbers = new int[3];
+		int[] intNumbers = new int[strNumbers.length];
 		int tempInt;
 		for (int i = 0; i < strNumbers.length; i++) {
 			
