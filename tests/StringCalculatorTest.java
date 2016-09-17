@@ -72,4 +72,11 @@ public class StringCalculatorTest {
 
     assertEquals(21313123, calc.addUnknown(test));
   }
+  public void testAddWithNewLineWith5() {
+    StringCalculator calc = new StringCalculator();
+
+    String test = "213,500\n2,45,3\n10,2";
+
+    assertEquals(775, calc.addUnknown(test));
+  }
 }

@@ -42,7 +42,21 @@ public class StringCalculator {
       return result;
     }
   }
-
+  
+  public int addWithNewLines(String str){
+    int result = 0;
+    String numberStr = "";
+    for (int i = 0; i < str.length(); i++) {
+      String current = str.substring(i,i+1);
+      if(current != "," || current != "\n")
+        numberStr += current;
+      else{
+        result += Integer.parseInt(numberStr);
+      }
+    }
+    return result;
+  }
+  
   public int countCommas(String str) {
     int counter = 0;
     for (int i = 0; i < str.length(); i++) {
